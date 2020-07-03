@@ -13,7 +13,7 @@ const ContactMe = () => {
                 <meta name="keywords" content="react,seo,helmet" />
             </Helmet>
 
-            <h1 className="center title">Contact Me</h1>
+            <h1 className="center title">Contact Me Look at Me!</h1>
             <p>Contact Me Content! Lorem ipsum dolor sit amet, consectetur adipiscing 
             elit, sed do eiusmod tempor incididunt ut labore et dolore 
             magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
