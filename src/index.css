@@ -1,13 +1,232 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/*
+nav {
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+*/
+
+.container {
+  width: 90%;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* Hover over nav links */
+nav ul a:hover {
+  color: yellow;
+  background-color: transparent;
+}
+
+nav ul a:focus {
+  color: yellow;
+  background-color: transparent;
+}
+
+
+.content {
+  /* margin-top: 100px; If you use fixed navbar */
+  margin-top: 45px; /* Without fixed navbar */
+}
+
+
+/* Hero Image on home page */
+.hero {
+  background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url(images/hero-image.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 500px;
+  margin-top: -45px;
+}
+
+/* Content on Hero Image */
+.hero-content {
+  color: #fff;
+  padding-top: 100px;
+}
+
+.hero-content h1 {
+  font-weight: 800;
+}
+
+.hero-content p {
+  font-weight: 400;
+}
+
+.video {
+  padding: 50px;
+}
+
+/* Page Title */
+.title {
+  color: #1B5E20;
+  font-weight: bold;
+}
+
+/* About Page */
+.video-image {
+  padding: 45px 0px !important;
+}
+
+.video-content  h3 {
+  font-weight: 400;
+  font-size: 40px;
+}
+
+.alexa-content h3 {
+  font-weight: 400;
+  font-size: 40px;
+}
+
+.website-title h3 {
+  font-weight: 400;
+  font-size: 40px;
+}
+
+.video-content  li {
+  font-size: 20px;
+}
+
+/* Images for Websites and Alexa */
+.website-image {
+  text-align: center;
+}
+
+.alexa-image {
+  text-align: center;
+}
+
+/* Videos for mobile */
+/*
+@media only screen and (min-width: 1024px) {
+
+  iframe {
+    height: 386px;
+    width: 686px;
+  }
+
+}
+*/
+
+@media only screen and (min-width: 993px) {
+
+  .about-me-mobile {
+    display: none;
+  }
+
+}
+
+@media only screen and (max-width: 992px) {
+
+  .about-me-desktop {
+    display: none;
+  }
+
+  .video-image {
+    text-align: center;
+  }
+
+  .video .row {
+      text-align: center;
+  }
+
+  iframe {
+    height: 200px;
+    width: 300px;
+  }
+
+  .video-content {
+    text-align: center;
+  }
+
+}
+
+/* Footer */
+a.white-text.text-lighten-3:hover {
+    color: yellow !important;
+}
+
+a.white-text.text-lighten-3:focus {
+    color: yellow !important;
+}
+
+.font-awesome-icon {
+  font-size: 32px;
+}
+
+.contact-icons li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.social-media-icons li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.contact-icons-mobile li {
+  display: inline;
+  float: left;
+}
+
+ul.contact-icons-mobile li {
+   margin-right: -40px;
+}
+
+.social-media-icons-mobile li {
+  display: inline;
+  float: left;
+}
+
+ul.social-media-icons-mobile li {
+    margin-right: -40px;
+}
+
+/* Contact Me */
+.contact.contact-icons {
+  text-align: center;
+}
+
+.contact.social-media-icons {
+  text-align: center;
+}
+
+.icons {
+  font-size: 100px;
+  text-align: center;
+}
+
+.contact-me {
+  color: #283593;
+}
+
+.facebook {
+  color: #3b5998;
+}
+
+.linkedin {
+  color: #0e76a8;
+}
+
+.instagram {
+  color: #fb3958;
+}
+
+.youtube {
+  color: #c4302b;
+}
+
+/* Mobile Pop Up Nav */
+.sidenav li > a:hover {
+  color: blue;
+  background-color: transparent;
+}
+
+.sidenav li > a:focus {
+  color: blue;
+  background-color: transparent;
+}
+
+/* Contact CTA Box */
+.contact-cta {
+  padding: 40px;
 }

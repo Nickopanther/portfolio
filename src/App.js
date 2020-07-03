@@ -1,26 +1,39 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from 'react';
+//import './App.css';
+import './index.css';
+import { BrowserRouter, Route, Switch, Redirect } from 'react-router-dom';
+import Navbar from './components/Navbar';
+import Home from './components/Home';
+import AboutMe from './components/AboutMe';
+import Videos from './components/Videos';
+import Websites from './components/Websites';
+import AlexaSkills from './components/AlexaSkills';
+import ContactMe from './components/ContactMe';
+import Footer from './components/Footer';
+import NotFoundPage from './components/NotFoundPage';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends Component {
+  render() {
+    return (
+      <div className="App">
+        <BrowserRouter>
+          <div className="App">
+            <Navbar />
+            <Switch>
+              <Route exact path="/" component={Home} />
+              <Route path="/about-me" component={AboutMe} />
+              <Route path="/videos" component={Videos} />
+              <Route path="/websites" component={Websites} />
+              <Route path="/alexa-skills" component={AlexaSkills} />
+              <Route path="/contact-me" component={ContactMe} />
+              <Route path="*" component={NotFoundPage} />
+            </Switch>
+            <Footer />
+          </div>
+        </BrowserRouter>
+      </div>
+    )
+  }
 }
 
 export default App;
