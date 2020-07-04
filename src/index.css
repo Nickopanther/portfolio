@@ -63,10 +63,11 @@ nav ul a:focus {
 }
 
 /* About Page */
+/*
 .video-image {
-  padding: 45px 0px !important;
+  padding: 45px !important;
 }
-
+*/
 .video-content  h3 {
   font-weight: 400;
   font-size: 40px;
@@ -129,10 +130,7 @@ nav ul a:focus {
       text-align: center;
   }
 
-  iframe {
-    height: 200px;
-    width: 300px;
-  }
+
 
   .video-content {
     text-align: center;

@@ -1,7 +1,7 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faFacebook, faLinkedin, faInstagram, faYoutube } from "@fortawesome/free-brands-svg-icons";
+//import { faFacebook, faLinkedin, faInstagram, faYoutube } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope, faPhoneAlt } from "@fortawesome/free-solid-svg-icons";
 
 const ContactMe = () => {
@@ -14,9 +14,9 @@ const ContactMe = () => {
             </Helmet>
 
             <h1 className="center title">Contact Me Look at Me!</h1>
-            <p>Contact Me Content! Lorem ipsum dolor sit amet, consectetur adipiscing 
-            elit, sed do eiusmod tempor incididunt ut labore et dolore 
-            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
+            <p>Contact Me Content! Lorem ipsum dolor sit amet, consectetur adipiscing
+            elit, sed do eiusmod tempor incididunt ut labore et dolore
+            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
             ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
 
             {/* Contact */}
@@ -35,6 +35,7 @@ const ContactMe = () => {
             </ul>
 
             {/* Social Media */}
+            {/*
             <h2 className="center green-text text-darken-3">Social Media</h2>
             <ul className="contact social-media-icons footer-links">
             <li className="font-awesome-icon">
@@ -58,7 +59,7 @@ const ContactMe = () => {
               </a>
             </li>
           </ul>
-
+          */}
         </div>
     )
 }
