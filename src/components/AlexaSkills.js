@@ -265,6 +265,13 @@ const AlexaSkills = () => {
             </div>
          </div>
       </div>
+      <div className="container center">
+         <a href="/videos#alexa-videos" className="white-text text-lighten-3">
+           <button className="btn-large green">
+             Alexa Videos
+             </button>
+         </a>
+      </div>
    </div>
    <ContactCTA />
 </div>

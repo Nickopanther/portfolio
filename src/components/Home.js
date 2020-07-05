@@ -3,8 +3,9 @@ import { Helmet } from 'react-helmet';
 import { Link } from 'react-router-dom';
 import ScrollToTop from './ScrollToTop';
 import ContactCTA from './ContactCTA';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faFilm, faDesktop, faMicrophone } from "@fortawesome/free-solid-svg-icons";
+import Clapboard from '../images/clapboard.png';
+import Computer from '../images/computer.png';
+import Echo from '../images/echo.png';
 
 class Home extends Component {
     render() {
@@ -46,26 +47,32 @@ class Home extends Component {
                </button>
                </Link>
             </ScrollToTop>
-            <ul className="contact social-media-icons footer-links">
-               <li className="font-awesome-icon">
-                  <a className="icons indigo-text text-darken-4" href="/videos" rel="noopener noreferrer" title="Videos">
-                     <FontAwesomeIcon icon={faFilm} />
-                     <h3>Videos</h3>
+            <div className="row">
+              <div className="col s12 m4 l4">
+                  <a className="indigo-text text-darken-4" href="/videos" rel="noopener noreferrer" title="Videos">
+                     <img src={Clapboard}
+                          height="200"
+                          alt="Clapbaord"/>
+                     <h3 className="center">Videos</h3>
                   </a>
-               </li>
-               <li className="font-awesome-icon">
-                  <a className="icons indigo-text text-darken-4" href="/websites" rel="noopener noreferrer" title="Websites">
-                     <FontAwesomeIcon icon={faDesktop} />
-                     <h3>Websites</h3>
+              </div>
+              <div className="col s12 m4 l4">
+                  <a className="indigo-text text-darken-4" href="/websites" rel="noopener noreferrer" title="Websites">
+                  <img src={Computer}
+                       height="200"
+                       alt="Computer"/>
+                     <h3 className="center">Websites</h3>
                   </a>
-               </li>
-               <li className="font-awesome-icon">
-                  <a className="icons indigo-text text-darken-4" href="/alexa-skills" target="_blank" rel="noopener noreferrer" title="Instagram">
-                     <FontAwesomeIcon icon={faMicrophone} />
-                     <h3>Alexa Skills</h3>
+              </div>
+              <div className="col s12 m4 l4">
+                  <a className="indigo-text text-darken-4" href="/alexa-skills" target="_blank" rel="noopener noreferrer" title="Instagram">
+                  <img src={Echo}
+                       height="200"
+                       alt="Echo"/>
+                     <h3 className="center">Alexa Skills</h3>
                   </a>
-               </li>
-            </ul>
+              </div>
+            </div>
          </div>
       </div>
    </div>
