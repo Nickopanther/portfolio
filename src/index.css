@@ -11,6 +11,22 @@ nav {
   width: 90%;
 }
 
+/* Name of Site */
+@media only screen and (max-width: 992px)
+nav .brand-logo {
+    left: 32%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+nav .brand-logo {
+    position: relative;
+    color: #fff;
+    display: inline-block;
+    font-size: 2.1rem;
+    padding: 0;
+}
+
 /* Hover over nav links */
 nav ul a:hover {
   color: yellow;
@@ -63,11 +79,21 @@ nav ul a:focus {
 }
 
 /* About Page */
-/*
-.video-image {
-  padding: 45px !important;
+@media only screen and (min-width: 993px) {
+.row .col.offset-l2 {
+    margin-left: 12.666667%;
 }
-*/
+}
+
+.about-me-desktop .video-clip {
+  padding: 40px !important;
+}
+
+.image {
+  padding: 40px !important;
+  text-align: right;
+}
+
 .video-content  h3 {
   font-weight: 400;
   font-size: 40px;
@@ -96,17 +122,17 @@ nav ul a:focus {
   text-align: center;
 }
 
-/* Videos for mobile */
-/*
-@media only screen and (min-width: 1024px) {
+/* Videos for mobile (Videos page) */
 
-  iframe {
-    height: 386px;
-    width: 686px;
+@media only screen and (max-width: 1024px) {
+
+  .video-clip iframe {
+    height: 140px;
+    width: 260px;
   }
 
 }
-*/
+
 
 @media only screen and (min-width: 993px) {
 

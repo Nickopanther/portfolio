@@ -21,64 +21,7 @@ const AboutMe = () => {
          <meta name="keywords" content="react,seo,helmet" />
       </Helmet>
       <h1 className="center title">About Me</h1>
-      {/* Desktop - Demo */}
-      <div className="about-me-desktop">
-         {/* Kutztown University */}
-         <div className="row">
-            <div className="col l5">
-               <h2 className="green-text text-darken-3">Lorem Ipsum</h2>
-               <p>
-                  Currently, I work for a digital marketing agency, DaBrian Marketing Group,
-                  in Reading. In my role, I develop and design websites on WordPress and update
-                  the plugins and themes frequently. I have also shot and edited videos for
-                  some of their clients.
-               </p>
-            </div>
-            <div className="col l5 offset-l2">
-            <h2 className="green-text text-darken-3">Lorem Ipsum</h2>
-            <p>
-               Currently, I work for a digital marketing agency, DaBrian Marketing Group,
-               in Reading. In my role, I develop and design websites on WordPress and update
-               the plugins and themes frequently. I have also shot and edited videos for
-               some of their clients.
-            </p>
-            </div>
-         </div>
-         <hr />
-         {/* Internship */}
-         <div className="row">
-            <div className="video-image col l5">
-               <iframe width="525" height="300" src="https://www.youtube.com/embed/wdGWJGG_vtg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title="Berks Lanes (Package)"></iframe>
-            </div>
-            <div className="col l5 offset-l2">
-               <h2 className="green-text text-darken-3">Lorem Ipsum</h2>
-               <p>
-                  Currently, I work for a digital marketing agency, DaBrian Marketing Group,
-                  in Reading. In my role, I develop and design websites on WordPress and update
-                  the plugins and themes frequently. I have also shot and edited videos for
-                  some of their clients.
-               </p>
-            </div>
-         </div>
-         <hr />
-         {/* Camera Operator Jobs */}
-         <div className="row">
-            <div className="col l5">
-               <h2 className="green-text text-darken-3">Lorem Ipsum</h2>
-               <p>
-                  Currently, I work for a digital marketing agency, DaBrian Marketing Group,
-                  in Reading. In my role, I develop and design websites on WordPress and update
-                  the plugins and themes frequently. I have also shot and edited videos for
-                  some of their clients.
-               </p>
-            </div>
-            <div className="video-image col l5 offset-l2">
-               <iframe width="525" height="300" src="https://www.youtube.com/embed/wdGWJGG_vtg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title="Berks Lanes (Package)"></iframe>
-            </div>
-         </div>
-         <hr />
 
-      </div>
       {/* Desktop */}
       <div className="about-me-desktop">
          {/* Kutztown University */}
@@ -97,14 +40,14 @@ const AboutMe = () => {
                   assignments. <strong>Check out the videos below.</strong>
                </p>
             </div>
-            <div className="video-image col l5 offset-l2">
+            <div className="video-clip col l5 offset-l2">
                <iframe width="525" height="300" src="https://www.youtube.com/embed/wdGWJGG_vtg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title="Berks Lanes (Package)"></iframe>
             </div>
          </div>
          <hr />
          {/* Internship */}
          <div className="row">
-            <div className="video-image col l5">
+            <div className="video-clip col l5">
                <iframe width="525" height="300"width="525" height="300" src="https://www.youtube.com/embed/GD4s7KgjuOc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen" title="Internship at TC Motion (Lancaster, PA)"></iframe>
             </div>
             <div className="col l5 offset-l2">
@@ -127,7 +70,7 @@ const AboutMe = () => {
                   teams in Reading, PA. I would shoot the home games during each season.
                </p>
             </div>
-            <div className="video-image col l5 offset-l2">
+            <div className="image col l5 offset-l2">
                <img src={PhilliesCameraOperator}
                   height="320"
                   width="320"
@@ -139,7 +82,7 @@ const AboutMe = () => {
          <hr />
          {/* DaBrian Marketing Groups */}
          <div className="row">
-            <div className="video-image col l5">
+            <div className="video-clip col l5">
                <iframe width="525" height="300" src="https://www.youtube.com/embed/ch52ecw8Jng" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title="Cherry Orthodontics (Package)"></iframe>
             </div>
             <div className="col l5 offset-l2">
@@ -162,7 +105,7 @@ const AboutMe = () => {
                   are available on the Amazon marketplace.
                </p>
             </div>
-            <div className="video-image col l5 offset-l2">
+            <div className="image col l5 offset-l2">
                <a href="https://www.amazon.com/Nickopanther-Catholic-Prayers/dp/B0787HK4FN/ref=sr_1_2?s=digital-skills&ie=UTF8&qid=1544401431&sr=1-2&keywords=catholic+prayers" target="_blank" rel="noopener noreferrer">
                <img src={CatholicPrayersSkill}
                   alt="Catholic Prayers Skill"
@@ -190,7 +133,7 @@ const AboutMe = () => {
                </p>
             </div>
             <div className="video-image col s12 ">
-               <iframe width="343" height="193" src="https://www.youtube.com/embed/wdGWJGG_vtg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title="Berks Lanes (Package)"></iframe>
+               <iframe width="260" height="140" src="https://www.youtube.com/embed/wdGWJGG_vtg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title="Berks Lanes (Package)"></iframe>
             </div>
          </div>
          <hr />
@@ -206,7 +149,7 @@ const AboutMe = () => {
                </p>
             </div>
             <div className="video-image col s12">
-               <iframe width="343" height="193" src="https://www.youtube.com/embed/GD4s7KgjuOc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen" title="Internship at TC Motion (Lancaster, PA)"></iframe>
+               <iframe width="260" height="140" src="https://www.youtube.com/embed/GD4s7KgjuOc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen" title="Internship at TC Motion (Lancaster, PA)"></iframe>
             </div>
          </div>
          <hr />
@@ -221,8 +164,8 @@ const AboutMe = () => {
             </div>
             <div className="video-image col l3">
                <img src={PhilliesCameraOperator}
-                  height="320"
-                  width="320"
+                  height="260"
+                  width="260"
                   alt="Camera Operator at the Fightin' Phils"
                   title="Camera Operator at the Fightin' Phils"
                   />
@@ -241,7 +184,7 @@ const AboutMe = () => {
                </p>
             </div>
             <div className="video-image col s12">
-               <iframe width="343" height="193" src="https://www.youtube.com/embed/ch52ecw8Jng" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title="Cherry Orthodontics (Package)"></iframe>
+               <iframe width="260" height="140" src="https://www.youtube.com/embed/ch52ecw8Jng" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title="Cherry Orthodontics (Package)"></iframe>
             </div>
          </div>
          <hr />
