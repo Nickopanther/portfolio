@@ -11,13 +11,13 @@ import AlexaSkills from './components/AlexaSkills';
 import ContactMe from './components/ContactMe';
 import Footer from './components/Footer';
 import NotFoundPage from './components/NotFoundPage';
+import PrivacyPolicy from './components/PrivacyPolicy';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
         <BrowserRouter>
-          <div className="App">
             <Navbar />
             <Switch>
               <Route exact path="/" component={Home} />
@@ -26,10 +26,10 @@ class App extends Component {
               <Route path="/websites" component={Websites} />
               <Route path="/alexa-skills" component={AlexaSkills} />
               <Route path="/contact-me" component={ContactMe} />
+              <Route path="/privacy-policy" component={PrivacyPolicy} />
               <Route path="*" component={NotFoundPage} />
             </Switch>
             <Footer />
-          </div>
         </BrowserRouter>
       </div>
     )
