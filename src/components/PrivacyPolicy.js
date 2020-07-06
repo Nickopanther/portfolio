@@ -14,22 +14,17 @@ const PrivacyPolicy = () => {
 
       <h1 className="center title">Privacy Policy</h1>
 
-      <h2 className="green-text text-darken-3">Videos</h2>
+      <h2 className="green-text text-darken-3">Website</h2>
       <p>
-         All <Link to ="/videos">videos</Link> presented on this site have been created for classes,
-         work, and deomnstrating Alexa Skills.
+         This website has been created with the purpose to showcase work by
+         Nick Azzarello. This website does not collect any information, data, or
+         cookies.
       </p>
 
-      <h2 className="green-text text-darken-3">Websites</h2>
-      <p>
-         All <Link to="/websites">websites</Link> have been created for clients from work. None of them collect,
-         or ask for, data or personal information.
-      </p>
       <h2 className="green-text text-darken-3">Alexa Skills</h2>
       <p>
-         All <Link to="/alexa-skills">Alexa Skills</Link> presented on this site has been created for purposes.
-         None have been created for clients. None of them collect,
-         or ask for, data or personal information.
+         All Alexa Skills presented on this site do not collect any information, data, or
+         cookies.
       </p>
       </div>
     </div>
