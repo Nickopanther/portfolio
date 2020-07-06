@@ -72,7 +72,9 @@ const Footer = () => {
       </div>
     </div>
     <div className="footer-copyright indigo darken-4">
-      <div className="container center-align">&copy; 2020 Nick Azzarello, All rights reserved.</div>
+      <div className="container center-align">
+        <p>&copy; 2020 Nick Azzarello, All rights reserved. <Link to="/privacy-policy" className="white-text">Privacy Policy.</Link></p>
+      </div>
     </div>
   </footer>
 )
