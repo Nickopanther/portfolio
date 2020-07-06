@@ -10,7 +10,7 @@ import ContactCTA from './ContactCTA';
 
 const Websites = () => {
     return (
-        <div>
+        <div className="Websites">
         <div className="container content">
             <Helmet>
                 <title>Websites - Nick Azzarello</title>

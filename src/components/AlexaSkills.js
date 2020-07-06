@@ -19,7 +19,7 @@ import ContactCTA from './ContactCTA';
 
 const AlexaSkills = () => {
     return (
-        <div>
+        <div className="AlexaSkills">
    <div className="container content">
       <Helmet>
          <title>Alexa Skills - Nick Azzarello</title>

@@ -4,7 +4,7 @@ import ContactCTA from './ContactCTA';
 
 const Videos = () => {
   return (
-    <div>
+    <div className="Videos">
    <div className="container content">
       <Helmet>
          <title>Video Portfolio - Nick Azzarello</title>

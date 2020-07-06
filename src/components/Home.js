@@ -10,7 +10,7 @@ import Echo from '../images/echo.png';
 class Home extends Component {
     render() {
         return (
-          <div>
+          <div className="Home">
    <Helmet>
       <title>Nick Azzarello</title>
       <meta name="description" content="testing react helmet" />

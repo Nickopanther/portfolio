@@ -129,17 +129,9 @@ nav ul a:focus {
 
 /* Videos for mobile (Videos page) */
 
-@media only screen and (max-width: 1024px) {
-
-  .video-clip iframe {
-    height: 140px;
-    width: 260px;
-  }
-
-}
 
 
-@media only screen and (min-width: 993px) {
+@media only screen and (min-width: 1025px) {
 
   .about-me-mobile {
     display: none;
@@ -147,7 +139,8 @@ nav ul a:focus {
 
 }
 
-@media only screen and (max-width: 992px) {
+/* On Mobile */
+@media only screen and (max-width: 1024px) {
 
   .about-me-desktop {
     display: none;
@@ -161,13 +154,60 @@ nav ul a:focus {
       text-align: center;
   }
 
-
-
   .video-content {
     text-align: center;
   }
 
 }
+
+/* Video Clips on Tablets */
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+
+  iframe {
+   width: 700px;
+   height: 350px;
+ }
+
+ .video-clip iframe {
+  width: 700px;
+  height: 400px;
+}
+
+.Videos .row .col.l4 {
+    width: 100%;
+    margin-left: auto;
+    left: auto;
+    right: auto;
+}
+
+}
+
+@media only screen and (min-width: 415px) and (max-width: 768px) {
+
+  iframe {
+   width: 600px;
+   height: 340px;
+ }
+
+ .video-clip iframe {
+  width: 600px;
+  height: 340px;
+}
+
+}
+
+@media only screen and (max-width: 415px) {
+
+ .video-clip iframe {
+  width: 260px;
+  height: 150px;
+}
+
+}
+
+
+
+
 
 /* Footer */
 a.white-text.text-lighten-3:hover {

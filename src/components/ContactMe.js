@@ -6,7 +6,7 @@ import { faEnvelope, faPhoneAlt } from "@fortawesome/free-solid-svg-icons";
 
 const ContactMe = () => {
     return (
-        <div className="container content">
+        <div className="ContactMe container content">
             <Helmet>
                 <title>Contact Me - Nick Azzarello</title>
                 <meta name="description" content="testing react helmet" />

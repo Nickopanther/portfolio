@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 const PrivacyPolicy = () => {
   return (
-    <div>
+    <div className="PrivacyPolicy">
       <div className="container content">
         <Helmet>
           <title>Privacy Policy - Nick Azzarello</title>

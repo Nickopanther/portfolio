@@ -13,7 +13,7 @@ import Placeholder from '../images/placeholder.jpg';
 
 const AboutMe = () => {
     return (
-        <div>
+        <div className="AboutMe">
    <div className="container content">
       <Helmet>
          <title>About Me - Nick Azzarello</title>
@@ -114,6 +114,7 @@ const AboutMe = () => {
             </div>
          </div>
       </div>
+
       {/* Mobile */}
       <div className="about-me-mobile">
          <div className="row">
