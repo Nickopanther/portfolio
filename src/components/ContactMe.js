@@ -1,7 +1,7 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-//import { faFacebook, faLinkedin, faInstagram, faYoutube } from "@fortawesome/free-brands-svg-icons";
+import { faFacebook, faLinkedin, faInstagram, faYoutube, faTiktok } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope, faPhoneAlt } from "@fortawesome/free-solid-svg-icons";
 
 const ContactMe = () => {
@@ -13,11 +13,8 @@ const ContactMe = () => {
                 <meta name="keywords" content="react,seo,helmet" />
             </Helmet>
 
-            <h1 className="center title">Contact Me Look at Me!</h1>
-            <p>Contact Me Content! Lorem ipsum dolor sit amet, consectetur adipiscing
-            elit, sed do eiusmod tempor incididunt ut labore et dolore
-            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-            ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <h1 className="center title">Contact Me</h1>
+            <p className="ccenter">Contact Me Content</p>
 
             {/* Contact */}
             <h2 className="center green-text text-darken-3">Contact Info</h2>
@@ -35,7 +32,7 @@ const ContactMe = () => {
             </ul>
 
             {/* Social Media */}
-            {/*
+
             <h2 className="center green-text text-darken-3">Social Media</h2>
             <ul className="contact social-media-icons footer-links">
             <li className="font-awesome-icon">
@@ -58,8 +55,13 @@ const ContactMe = () => {
                 <FontAwesomeIcon icon={faYoutube} />
               </a>
             </li>
+            <li className="font-awesome-icon">
+              <a className="tiktok icons" href="https://www.tiktok.com/@nicko_azzarello?lang=en" target="_blank" rel="noopener noreferrer" title="TikTok">
+                <FontAwesomeIcon icon={faTiktok} />
+              </a>
+            </li>
           </ul>
-          */}
+
         </div>
     )
 }
