@@ -27,6 +27,8 @@ const AlexaSkills = () => {
          <meta name="keywords" content="nick azzarello, alexa skills, amazon alexa" />
       </Helmet>
       <h1 className="center title">Alexa Skills</h1>
+      <p className="center">A list of the many Alexa Skills I have created that are available to use
+      on any Alexa device. <br /> Click on an image, or name, to learn more about a skill.</p>
       <div className="row one">
          <div className="alexa col s12 m4 l4">
             <div className="alexa-image">

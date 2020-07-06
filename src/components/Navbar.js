@@ -1,7 +1,7 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faFacebook, faLinkedin, faInstagram, faYoutube } from "@fortawesome/free-brands-svg-icons";
+import { faFacebook, faLinkedin, faInstagram, faYoutube, faTiktok } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope, faPhoneAlt } from "@fortawesome/free-solid-svg-icons";
 
 const Navbar = () => {
@@ -35,7 +35,7 @@ const Navbar = () => {
                   <li><NavLink to="/contact-me">Contact Me</NavLink></li>
                 </ul>
 
-                <br /> 
+                <br />
 
                 {/* Contact */}
                   <ul className="contact-icons-mobile">
@@ -73,6 +73,11 @@ const Navbar = () => {
                   <li className="font-awesome-icon">
                     <a href="https://www.youtube.com/channel/UCdZzMgx3JF9xI6U-ksZMvWg?view_as=subscriber" rel="noopener noreferrer" target="_blank" title="YouTube">
                       <FontAwesomeIcon icon={faYoutube} />
+                    </a>
+                  </li>
+                  <li className="font-awesome-icon">
+                    <a className="tiktok icons" href="https://www.tiktok.com/@nicko_azzarello?lang=en" target="_blank" rel="noopener noreferrer" title="TikTok">
+                      <FontAwesomeIcon icon={faTiktok} />
                     </a>
                   </li>
                 </ul>

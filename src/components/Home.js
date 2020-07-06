@@ -10,7 +10,7 @@ import Echo from '../images/echo.png';
 class Home extends Component {
     render() {
         return (
-          <div className="content home">
+          <div>
    <Helmet>
       <title>Nick Azzarello</title>
       <meta name="description" content="testing react helmet" />
@@ -19,7 +19,7 @@ class Home extends Component {
    <div className="hero">
       <div className="hero-content container center">
          <h1>Nick Azzarello</h1>
-         <p>Explore my work of videos and Alexa Skills.</p>
+         <p>Explore my work of videos, websites and Alexa Skills.</p>
          <ScrollToTop>
             <Link to="/contact-me" className="white-text text-lighten-3">
             <button className="btn-large green">
@@ -47,34 +47,35 @@ class Home extends Component {
                </button>
                </Link>
             </ScrollToTop>
-            <div className="row">
-              <div className="col s12 m4 l4">
-                  <a className="indigo-text text-darken-4" href="/videos" rel="noopener noreferrer" title="Videos">
-                     <img src={Clapboard}
-                          height="200"
-                          alt="Clapbaord"/>
-                     <h3 className="center">Videos</h3>
-                  </a>
-              </div>
-              <div className="col s12 m4 l4">
-                  <a className="indigo-text text-darken-4" href="/websites" rel="noopener noreferrer" title="Websites">
-                  <img src={Computer}
-                       height="200"
-                       alt="Computer"/>
-                     <h3 className="center">Websites</h3>
-                  </a>
-              </div>
-              <div className="col s12 m4 l4">
-                  <a className="indigo-text text-darken-4" href="/alexa-skills" target="_blank" rel="noopener noreferrer" title="Instagram">
-                  <img src={Echo}
-                       height="200"
-                       alt="Echo"/>
-                     <h3 className="center">Alexa Skills</h3>
-                  </a>
-              </div>
-            </div>
          </div>
       </div>
+      <div className="row">
+        <div className="col s12 m4 l4">
+            <a className="indigo-text text-darken-4" href="/videos" rel="noopener noreferrer" title="Videos">
+               <img src={Clapboard}
+                    height="200"
+                    alt="Clapbaord"/>
+               <h3 className="center">Videos</h3>
+            </a>
+        </div>
+        <div className="col s12 m4 l4">
+            <a className="indigo-text text-darken-4" href="/websites" rel="noopener noreferrer" title="Websites">
+            <img src={Computer}
+                 height="200"
+                 alt="Computer"/>
+               <h3 className="center">Websites</h3>
+            </a>
+        </div>
+        <div className="col s12 m4 l4">
+            <a className="indigo-text text-darken-4" href="/alexa-skills" target="_blank" rel="noopener noreferrer" title="Instagram">
+            <img src={Echo}
+                 height="200"
+                 alt="Echo"/>
+               <h3 className="center">Alexa Skills</h3>
+            </a>
+        </div>
+      </div>
+
    </div>
    <ContactCTA />
 </div>

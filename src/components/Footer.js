@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import ScrollToTop from './ScrollToTop';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faFacebook, faLinkedin, faInstagram, faYoutube } from "@fortawesome/free-brands-svg-icons";
+import { faFacebook, faLinkedin, faInstagram, faYoutube, faTiktok } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope, faPhoneAlt } from "@fortawesome/free-solid-svg-icons";
 
 
@@ -17,7 +17,7 @@ const Footer = () => {
           <h5 className="white-text">Links</h5>
             <ul className="footer-links">
                 <li><ScrollToTop><Link to="/" className="white-text text-lighten-3">Home</Link></ScrollToTop></li>
-                <li><ScrollToTop><Link to="/about-me" className="white-text text-lighten-3">About Me</Link></ScrollToTop></li>
+                <li><ScrollToTop><Link to="/about-me" className="about white-text text-lighten-3">About Me</Link></ScrollToTop></li>
                 <li><ScrollToTop><Link to="/videos" className="white-text text-lighten-3">Videos</Link></ScrollToTop></li>
                 <li><ScrollToTop><Link to="/websites" className="white-text text-lighten-3">Websites</Link></ScrollToTop></li>
                 <li><ScrollToTop><Link to="/alexa-skills" className="white-text text-lighten-3">Alexa Skills</Link></ScrollToTop></li>
@@ -66,6 +66,11 @@ const Footer = () => {
                 <FontAwesomeIcon icon={faYoutube} />
               </a>
             </li>
+            <li className="font-awesome-icon">
+              <a className="white-text text-lighten-3" href="https://www.tiktok.com/@nicko_azzarello?lang=en" target="_blank" target="_blank" rel="noopener noreferrer" title="TikTok">
+                <FontAwesomeIcon icon={faTiktok} />
+              </a>
+            </li>
           </ul>
         </div>
 
@@ -73,7 +78,7 @@ const Footer = () => {
     </div>
     <div className="footer-copyright indigo darken-4">
       <div className="container center-align">
-        <p>&copy; 2020 Nick Azzarello, All rights reserved. <Link to="/privacy-policy" className="white-text">Privacy Policy.</Link></p>
+        <p>&copy; 2020 Nick Azzarello, All rights reserved | <Link to="/privacy-policy" className="white-text">Privacy Policy</Link></p>
       </div>
     </div>
   </footer>

@@ -7,6 +7,12 @@ nav {
 }
 */
 
+p {
+  font-family: "Source Sans Pro",Sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+
 .container {
   width: 90%;
 }
@@ -41,7 +47,7 @@ nav ul a:focus {
 
 .content {
   /* margin-top: 100px; If you use fixed navbar */
-  margin-top: 45px; /* Without fixed navbar */
+  padding-bottom:  40px; /* Without fixed navbar */
 }
 
 
@@ -51,7 +57,6 @@ nav ul a:focus {
   background-size: cover;
   background-position: center;
   min-height: 500px;
-  margin-top: -45px;
 }
 
 /* Content on Hero Image */
@@ -237,6 +242,10 @@ ul.social-media-icons-mobile li {
 
 .youtube {
   color: #c4302b;
+}
+
+.tiktok {
+  color: #010101;
 }
 
 /* Mobile Pop Up Nav */
