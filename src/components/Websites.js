@@ -19,9 +19,9 @@ const Websites = () => {
             </Helmet>
 
             <h1 className="center title">Websites</h1>
-            <p className="center">Websites that I have helped build and maintain
+            <p>Websites that I have helped build and maintain
             at <a href="https://dabrianmarketing.com" target="_blank">DaBrian Marketing Group, LLC</a>.
-            <br /> Click on an image, or title, to explore a site.</p>
+            Click on an image, or title, to explore a site.</p>
 
             <div className="row one">
 

@@ -13,7 +13,7 @@ const Videos = () => {
       </Helmet>
       <h1 className="center title">Video Portfolio</h1>
       <h2 className="center green-text text-darken-3">Kutztown University</h2>
-      <p className="center">At Kutztown University I have made numerous video projects with the knowledge based off what I learned from my classes. I had the chance to write, shoot, and edit many projects and helped out on other projects.</p>
+      <p>At Kutztown University I have made numerous video projects with the knowledge based off what I learned from my classes. I had the chance to write, shoot, and edit many projects and helped out on other projects.</p>
       <div className="row one">
          <div className="video col s12 m12 l4">
             <div className="video-clip center">

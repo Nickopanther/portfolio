@@ -1,12 +1,10 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
 import PhilliesCameraOperator from '../images/phillies-camera-opereator.jpg';
-import RoyalsCameraOperator from '../images/royals-camera-operator.jpg';
 import CatholicPrayersSkill from '../images/catholic-prayers-skill.png'
 import RingDoorbellSkill from '../images/ring-doorbell-skill.png';
 import WakeUpSkill from '../images/wake-up-skill.png';
 import ContactCTA from './ContactCTA';
-import Placeholder from '../images/placeholder.jpg';
 
 {/* Create Dummy Lorem Ipsum titles and content to have them be equal and consistent
     and write your content based on that */}
@@ -163,10 +161,8 @@ const AboutMe = () => {
                   teams in Reading, PA. I would shoot the home games during each season.
                </p>
             </div>
-            <div className="video-image col l3">
+            <div className="video-image col s12 phillies-camera-operator">
                <img src={PhilliesCameraOperator}
-                  height="260"
-                  width="260"
                   alt="Camera Operator at the Fightin' Phils"
                   title="Camera Operator at the Fightin' Phils"
                   />
