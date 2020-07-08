@@ -66,6 +66,10 @@ nav .brand-logo {
     width: 200px !important;
   }
 
+  footer {
+    text-align: center;
+  }
+
 }
 
 /* Hover over nav links */
@@ -116,6 +120,10 @@ nav ul a:focus {
 .title {
   color: #1B5E20;
   font-weight: bold;
+}
+
+.skills {
+  text-align: center;
 }
 
 /* About Page */
@@ -262,13 +270,29 @@ nav ul a:focus {
   padding: 10px 0px !important;
 }
 
+/* Single image of website per row on iPad */
+@media only screen and (max-width: 768px) {
+  .website {
+    width: 100% !important;
+  }
+
+}
 
 /* Footer */
+
 a.white-text.text-lighten-3:hover {
     color: yellow !important;
 }
 
 a.white-text.text-lighten-3:focus {
+    color: yellow !important;
+}
+
+.privacy-policy a:hover {
+    color: yellow !important;
+}
+
+.privacy-policy a:focus {
     color: yellow !important;
 }
 
@@ -356,4 +380,17 @@ ul.social-media-icons-mobile li {
 /* Contact CTA Box */
 .contact-cta {
   padding: 40px;
+}
+
+footer h5 {
+  font-size: 1.85rem;
+}
+
+footer li {
+  font-size: 16px;
+}
+
+/* Blue footer with copyright */
+.footer-copyright {
+  padding: 0px !important;
 }

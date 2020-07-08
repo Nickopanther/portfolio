@@ -14,7 +14,9 @@ const ContactMe = () => {
             </Helmet>
 
             <h1 className="center title">Contact Me</h1>
-            <p className="ccenter">Contact Me Content</p>
+            <p>Interested in learning more about me? Get in contact with me,
+            via email or phone. You can also follow me through the following social media platforms I'm on.
+            </p>
 
             {/* Contact */}
             <h2 className="center green-text text-darken-3">Contact Info</h2>

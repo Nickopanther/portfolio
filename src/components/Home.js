@@ -49,11 +49,11 @@ class Home extends Component {
             </ScrollToTop>
          </div>
       </div>
-      <div className="row">
+      <div className="row skills">
         <div className="col s12 m4 l4">
             <a className="indigo-text text-darken-4" href="/videos" rel="noopener noreferrer" title="Videos">
                <img src={Clapboard}
-                    height="200"
+                    height="150"
                     alt="Clapbaord"/>
                <h3 className="center">Videos</h3>
             </a>
@@ -61,7 +61,7 @@ class Home extends Component {
         <div className="col s12 m4 l4">
             <a className="indigo-text text-darken-4" href="/websites" rel="noopener noreferrer" title="Websites">
             <img src={Computer}
-                 height="200"
+                 height="150"
                  alt="Computer"/>
                <h3 className="center">Websites</h3>
             </a>
@@ -69,7 +69,7 @@ class Home extends Component {
         <div className="col s12 m4 l4">
             <a className="indigo-text text-darken-4" href="/alexa-skills" target="_blank" rel="noopener noreferrer" title="Instagram">
             <img src={Echo}
-                 height="200"
+                 height="150"
                  alt="Echo"/>
                <h3 className="center">Alexa Skills</h3>
             </a>
