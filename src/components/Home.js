@@ -49,6 +49,9 @@ class Home extends Component {
             </ScrollToTop>
          </div>
       </div>
+
+      <hr />
+
       <div className="row skills">
         <div className="col s12 m4 l4">
             <a className="indigo-text text-darken-4" href="/videos" rel="noopener noreferrer" title="Videos">

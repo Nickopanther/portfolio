@@ -20,7 +20,7 @@ const Websites = () => {
 
             <h1 className="center title">Websites</h1>
             <p>Websites that I have helped build and maintain
-            at <a href="https://dabrianmarketing.com" target="_blank">DaBrian Marketing Group, LLC</a>.
+            at <a className="green-text text-darken-3" href="https://dabrianmarketing.com" target="_blank">DaBrian Marketing Group, LLC</a>.
             Click on an image, or title, to explore a site.</p>
 
             <div className="row one">

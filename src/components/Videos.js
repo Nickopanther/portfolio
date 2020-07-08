@@ -23,7 +23,7 @@ const Videos = () => {
       work as PA for a video production company, work as a camera operator for
       my local sport teams, and create my own video production work. Below are
       videos of what I have done at Kutztown University, my jobs, and
-      demonstration videos for my <Link to="/alexa-skills">Alexa Skills</Link>.</p>
+      demonstration videos for my <Link className="green-text text-darken-3" to="/alexa-skills">Alexa Skills</Link>.</p>
 
       <h2 className="center green-text text-darken-3">Kutztown University</h2>
       <p>At Kutztown University I have made numerous video projects with the knowledge based off what I learned from my classes. I had the chance to write, shoot, and edit many projects and helped out on other projects.</p>
@@ -143,8 +143,15 @@ const Videos = () => {
             </div>
          </div>
       </div>
-      <h2 className="center green-text text-darken-3">Clients for a Digital Marketing Agency</h2>
-      <p className="center">Videos made for clients of a digital marketing agency.</p>
+
+      <hr />
+
+      <h2 className="center green-text text-darken-3">
+      Clients for a Digital Marketing Agency
+      </h2>
+      <p>Here are videos I've made for clients at <a className="green-text text-darken-3" href="https://dabrianmarketing.com/" target="_blank">
+      DaBrian Marketing Group, LLC</a>. I was in charge of shooting, audio, and
+      editing the entire project. Each video was a one man shoot.</p>
       <div className="row four">
          <div className="video col s12 m12 l4">
             <div className="video-clip center">
@@ -183,9 +190,12 @@ const Videos = () => {
             </div>
          </div>
       </div>
+
+      <hr />
+
       <h2 id="alexa-videos" className="center green-text text-darken-3">Alexa Skills</h2>
-      <p className="center">Video deomonstrations of
-      <Link to="/alexa-skills">Alexa Skills</Link> I've made.</p>
+      <p>Video deomonstrations of Alexa Skills I've made. Each is available on any
+         Alexa device. To find a skill you are interested in, from the videos, <Link className="green-text text-darken-3" to="/alexa-skills">click here</Link>.</p>
 
       <div className="row five">
          <div className="video col s12 m12 l4">
@@ -292,9 +302,13 @@ const Videos = () => {
          </div>
       </div>
 
+      <hr />
+
       <div>
         <h2 className="center green-text text-darken-3">Watch More Videos</h2>
-        <p>Follow me on YouTube and TikTok.</p>
+        <p className="center">If you enjoyed some of the videos you've seen here,
+        you can see more, and follow me, on <strong>YouTube</strong> and
+        <strong>TikTok</strong>.</p>
         <ul className="contact social-media-icons footer-links">
           <li className="font-awesome-icon">
             <a className="youtube icons" href="https://www.youtube.com/channel/UCdZzMgx3JF9xI6U-ksZMvWg?view_as=subscriber" target="_blank" rel="noopener noreferrer" title="YouTube">
