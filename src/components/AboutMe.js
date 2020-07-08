@@ -1,7 +1,8 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
 import PhilliesCameraOperator from '../images/phillies-camera-opereator.jpg';
-import CatholicPrayersSkill from '../images/catholic-prayers-skill.png'
+import DaBrian from '../images/dabrian.png';
+import CatholicPrayersSkill from '../images/catholic-prayers-skill.png';
 import RingDoorbellSkill from '../images/ring-doorbell-skill.png';
 import WakeUpSkill from '../images/wake-up-skill.png';
 import ContactCTA from './ContactCTA';
@@ -39,7 +40,7 @@ const AboutMe = () => {
                </p>
             </div>
             <div className="video-clip col l5 offset-l2">
-               <iframe width="525" height="300" src="https://www.youtube.com/embed/wdGWJGG_vtg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title="Berks Lanes (Package)"></iframe>
+               <iframe width="525" height="300" src="https://www.youtube.com/embed/57pngVgjQhE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title="Berks Lanes (Package)"></iframe>
             </div>
          </div>
          <hr />
@@ -80,9 +81,15 @@ const AboutMe = () => {
          <hr />
          {/* DaBrian Marketing Groups */}
          <div className="row">
-            <div className="video-clip col l5">
-               <iframe width="525" height="300" src="https://www.youtube.com/embed/ch52ecw8Jng" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title="Cherry Orthodontics (Package)"></iframe>
-            </div>
+         <div className="image col l5">
+            <a href="https://dabrianmarketing.com" target="_blank" rel="noopener noreferrer">
+            <img src={DaBrian}
+               height="400"
+               width="600"
+               alt="DaBrian Marketing Group, LLC"
+               title="DaBrian Marketing Group, LLC" />
+            </a>
+         </div>
             <div className="col l5 offset-l2">
                <h2 className="green-text text-darken-3">DaBrian Marketing Group</h2>
                <p>
@@ -132,7 +139,7 @@ const AboutMe = () => {
                </p>
             </div>
             <div className="video-image col s12 ">
-               <iframe width="260" height="140" src="https://www.youtube.com/embed/wdGWJGG_vtg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title="Berks Lanes (Package)"></iframe>
+               <iframe width="260" height="140" src="https://www.youtube.com/embed/57pngVgjQhE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title="Berks Lanes (Package)"></iframe>
             </div>
          </div>
          <hr />
@@ -181,7 +188,13 @@ const AboutMe = () => {
                </p>
             </div>
             <div className="video-image col s12">
-               <iframe width="260" height="140" src="https://www.youtube.com/embed/ch52ecw8Jng" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title="Cherry Orthodontics (Package)"></iframe>
+            <a href="https://www.amazon.com/Nickopanther-Catholic-Prayers/dp/B0787HK4FN/ref=sr_1_2?s=digital-skills&ie=UTF8&qid=1544401431&sr=1-2&keywords=catholic+prayers" target="_blank" rel="noopener noreferrer">
+            <img src={DaBrian}
+               height="400"
+               width="600"
+               alt="DaBrian Marketing Group, LLC"
+               title="DaBrian Marketing Group, LLC" />
+            </a>
             </div>
          </div>
          <hr />

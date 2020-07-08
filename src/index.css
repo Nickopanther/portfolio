@@ -394,3 +394,8 @@ footer li {
 .footer-copyright {
   padding: 0px !important;
 }
+
+/* CTA Button */
+.btn-large:hover {
+  background-color: #3d9140 !important;
+}
