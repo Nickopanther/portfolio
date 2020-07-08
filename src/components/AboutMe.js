@@ -35,7 +35,7 @@ const AboutMe = () => {
                <p>
                   At Kutztown University, my major revolved around all aspects of video production.
                   While I was learning the fundamentals, I was able to create my own content for several
-                  assignments. <strong>Check out the videos below.</strong>
+                  assignments.
                </p>
             </div>
             <div className="video-clip col l5 offset-l2">
@@ -128,7 +128,7 @@ const AboutMe = () => {
                <p>
                   At Kutztown University, my major revolved around all aspects of video production.
                   While I was learning the fundamentals, I was able to create my own content for several
-                  assignments. <strong>Check out the videos below.</strong>
+                  assignments.
                </p>
             </div>
             <div className="video-image col s12 ">

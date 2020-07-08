@@ -267,7 +267,7 @@ nav ul a:focus {
 
 /* Padding on Websites, Alexa Skills, and Videos */
 .website, .video, .alexa {
-  padding: 10px 0px !important;
+  padding: 50px 0px !important;
 }
 
 /* Single image of website per row on iPad */

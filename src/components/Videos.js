@@ -1,5 +1,8 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { Helmet } from 'react-helmet';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faYoutube, faTiktok } from "@fortawesome/free-brands-svg-icons";
 import ContactCTA from './ContactCTA';
 
 const Videos = () => {
@@ -12,6 +15,16 @@ const Videos = () => {
          <meta name="keywords" content="nick azzarello, videos, video production"/>
       </Helmet>
       <h1 className="center title">Video Portfolio</h1>
+      <p>Video production has always been a passion of mine. I enjoy every aspect
+      of it. From pre-production to post production, it is very rewarding to take
+      an idea and watch it turn into something special for everyone to see. I
+      majored with a bachelor's in Electronic Media, at Kutztown University, and
+      gained more knowledge and skills with my craft. I have had the pleasure to
+      work as PA for a video production company, work as a camera operator for
+      my local sport teams, and create my own video production work. Below are
+      videos of what I have done at Kutztown University, my jobs, and
+      demonstration videos for my <Link to="/alexa-skills">Alexa Skills</Link>.</p>
+
       <h2 className="center green-text text-darken-3">Kutztown University</h2>
       <p>At Kutztown University I have made numerous video projects with the knowledge based off what I learned from my classes. I had the chance to write, shoot, and edit many projects and helped out on other projects.</p>
       <div className="row one">
@@ -29,10 +42,10 @@ const Videos = () => {
          </div>
          <div className="video col s12 m12 l4">
             <div className="video-clip center">
-               <iframe width="343" height="193" src="https://www.youtube.com/embed/GD4s7KgjuOc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen" title="Internship at TC Motion (Lancaster, PA)"></iframe>
+               <iframe width="343" height="193" src="https://www.youtube.com/embed/GD4s7KgjuOc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen" title="Internship at TC Motion"></iframe>
             </div>
             <div className="video-content center">
-               <h3 className="center title indigo-text text-darken-4">Internship at TC Motion (Lancaster, PA)</h3>
+               <h3 className="center title indigo-text text-darken-4">Internship at TC Motion</h3>
                <ul>
                   <li><strong>Production Assistant</strong></li>
                   <li><strong>Editor</strong></li>
@@ -70,18 +83,18 @@ const Videos = () => {
                <iframe width="343" height="193" src="https://www.youtube.com/embed/yn2829sXOAc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title="Inside (Short Film)"></iframe>
             </div>
             <div className="video-content center">
-               <h3 className="center title indigo-text text-darken-4">Inside (Short Film)</h3>
+               <h3 className="center title indigo-text text-darken-4">Inside <br /> (Short Film)</h3>
                <ul>
-                  <li>Boom Mic Operator</li>
+                  <li><strong>Boom Mic Operator</strong></li>
                </ul>
             </div>
          </div>
          <div className="video col s12 m12 l4">
             <div className="video-clip center">
-               <iframe width="343" height="193" src="https://www.youtube.com/embed/kWert-LdWs0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title="KUTV's Camera One (Sequences)"></iframe>
+               <iframe width="343" height="193" src="https://www.youtube.com/embed/kWert-LdWs0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title="KUTV's Camera One (Segues)"></iframe>
             </div>
             <div className="video-content center">
-               <h3 className="center title indigo-text text-darken-4">KUTV's Camera One (Sequences)</h3>
+               <h3 className="center title indigo-text text-darken-4">KUTV's Camera One (Segues)</h3>
                <ul>
                   <li><strong>Videographer</strong></li>
                   <li><strong>Editor</strong></li>
@@ -95,7 +108,7 @@ const Videos = () => {
                <iframe width="343" height="193" src="https://www.youtube.com/embed/wdGWJGG_vtg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title="Berks Lanes (Package)"></iframe>
             </div>
             <div className="video-content center">
-               <h3 className="center title indigo-text text-darken-4">Berks Lanes (Package)</h3>
+               <h3 className="center title indigo-text text-darken-4">Berks Lanes <br /> (Package)</h3>
                <ul>
                   <li><strong>Screenwriter</strong></li>
                   <li><strong>Videographer</strong></li>
@@ -108,7 +121,7 @@ const Videos = () => {
                <iframe width="343" height="193" src="https://www.youtube.com/embed/i0lpGMEPqNk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title="Young Ones (Package)"></iframe>
             </div>
             <div className="video-content center">
-               <h3 className="center title indigo-text text-darken-4">Young Ones (Package)</h3>
+               <h3 className="center title indigo-text text-darken-4">Young Ones <br /> (Package)</h3>
                <ul>
                   <li><strong>Screenwriter</strong></li>
                   <li><strong>Videographer</strong></li>
@@ -135,10 +148,10 @@ const Videos = () => {
       <div className="row four">
          <div className="video col s12 m12 l4">
             <div className="video-clip center">
-               <iframe width="343" height="193" src="https://www.youtube.com/embed/xW5AW7klBQc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title="COCA - Your Bridge to Addiction Resources (Package)"></iframe>
+               <iframe width="343" height="193" src="https://www.youtube.com/embed/xW5AW7klBQc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title="COCA (Package #1)"></iframe>
             </div>
             <div className="video-content center">
-               <h3 className="center title indigo-text text-darken-4">COCA - Your Bridge to Addiction Resources (Package)</h3>
+               <h3 className="center title indigo-text text-darken-4">COCA <br /> (Package #1)</h3>
                <ul>
                   <li><strong>Videographer</strong></li>
                   <li><strong>Editor</strong></li>
@@ -147,10 +160,10 @@ const Videos = () => {
          </div>
          <div className="video col s12 m12 l4">
             <div className="video-clip center">
-               <iframe width="343" height="193" src="https://www.youtube.com/embed/9mKueWqrO8M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title="COCA - Addiction &amp; Recovery (Package)"></iframe>
+               <iframe width="343" height="193" src="https://www.youtube.com/embed/9mKueWqrO8M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title="COCA (Package #2)"></iframe>
             </div>
             <div className="video-content center">
-               <h3 className="center title indigo-text text-darken-4">COCA - Addiction &amp; Recovery (Package)</h3>
+               <h3 className="center title indigo-text text-darken-4">COCA <br /> (Package #2)</h3>
                <ul>
                   <li><strong>Videographer</strong></li>
                   <li><strong>Editor</strong></li>
@@ -171,7 +184,9 @@ const Videos = () => {
          </div>
       </div>
       <h2 id="alexa-videos" className="center green-text text-darken-3">Alexa Skills</h2>
-      <p className="center">Video deomonstrations of Alexa Skills I've made.</p>
+      <p className="center">Video deomonstrations of
+      <Link to="/alexa-skills">Alexa Skills</Link> I've made.</p>
+
       <div className="row five">
          <div className="video col s12 m12 l4">
             <div className="video-clip center">
@@ -276,7 +291,26 @@ const Videos = () => {
             </div>
          </div>
       </div>
+
+      <div>
+        <h2 className="center green-text text-darken-3">Watch More Videos</h2>
+        <p>Follow me on YouTube and TikTok.</p>
+        <ul className="contact social-media-icons footer-links">
+          <li className="font-awesome-icon">
+            <a className="youtube icons" href="https://www.youtube.com/channel/UCdZzMgx3JF9xI6U-ksZMvWg?view_as=subscriber" target="_blank" rel="noopener noreferrer" title="YouTube">
+              <FontAwesomeIcon icon={faYoutube} />
+              </a>
+          </li>
+          <li className="font-awesome-icon">
+            <a className="tiktok icons" href="https://www.tiktok.com/@nicko_azzarello?lang=en" target="_blank" rel="noopener noreferrer" title="TikTok">
+              <FontAwesomeIcon icon={faTiktok} />
+            </a>
+          </li>
+      </ul>
+      </div>
+
    </div>
+
    <ContactCTA />
 </div>
 )
