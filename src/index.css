@@ -17,6 +17,13 @@ p {
   width: 90%;
 }
 
+.brand-logo img {
+  width: 250px;
+  padding: 5px 0;
+}
+
+
+
 /* Name of Site */
 @media only screen and (max-width: 992px) {
 /*
@@ -40,6 +47,10 @@ nav .brand-logo {
 
 /* Mobile devices */
 @media only screen and (max-width: 414px) {
+
+  .brand-logo img {
+    width: 200px;
+  }
 
   h1 {
     font-size: 3.6rem;
