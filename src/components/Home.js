@@ -16,6 +16,8 @@ class Home extends Component {
       <meta name="description" content="testing react helmet" />
       <meta name="keywords" content="react,seo,helmet" />
    </Helmet>
+
+   {/* Hero Image */}
    <div className="hero">
       <div className="hero-content container center">
          <h1>Nick Azzarello</h1>
@@ -29,6 +31,7 @@ class Home extends Component {
          </ScrollToTop>
       </div>
    </div>
+
    <div className="container">
       <div className="center video">
          <div className="video-clip">
@@ -50,8 +53,8 @@ class Home extends Component {
          </div>
       </div>
 
-      <hr />
 
+      {/* Skills/Services */}
       <div className="row skills">
         <div className="col s12 m4 l4">
             <a className="indigo-text text-darken-4" href="/videos" rel="noopener noreferrer" title="Videos">

@@ -17,28 +17,6 @@ p {
 }
 
 
-
-/* Name of Site */
-@media only screen and (max-width: 992px) {
-/*
-nav .brand-logo {
-    left: 32%;
-    -webkit-transform: translateX(-50%);
-    transform: translateX(-50%);
-}
-
-nav .brand-logo {
-    position: relative;
-    color: #fff;
-    display: inline-block;
-    font-size: 2.1rem;
-    padding: 0;
-}
-*/
-
-
-}
-
 /* Mobile devices */
 @media only screen and (max-width: 414px) {
 
@@ -69,6 +47,11 @@ nav .brand-logo {
   .phillies-camera-operator img {
     height: 200px !important;
     width: 200px !important;
+  }
+
+  .dabrian-laptop img {
+    height: 150px !important;
+    width: 250px !important;
   }
 
   footer {
@@ -236,7 +219,10 @@ nav ul a:focus {
   width: 400px;
 }
 
-
+.dabrian-laptop img {
+  height: 350px;
+  width: 600px;
+}
 
 }
 
@@ -255,6 +241,11 @@ nav ul a:focus {
 .phillies-camera-operator img {
   height: 300px;
   width: 300px;
+}
+
+.dabrian-laptop img {
+  height: 350px;
+  width: 600px;
 }
 
 }
@@ -371,17 +362,6 @@ ul.social-media-icons-mobile li {
   color: #010101;
 }
 
-/* Mobile Pop Up Nav */
-.sidenav li > a:hover {
-  color: blue;
-  background-color: transparent;
-}
-
-.sidenav li > a:focus {
-  color: blue;
-  background-color: transparent;
-}
-
 /* Contact CTA Box */
 .contact-cta {
   padding: 40px;
@@ -403,4 +383,27 @@ footer li {
 /* CTA Button */
 .btn-large:hover {
   background-color: #3d9140 !important;
+}
+
+/* Hamburger menu */
+.sidenav {
+  background-color: #1B5E20;
+}
+
+.sidenav li > a {
+  color: #fff;
+}
+
+.sidenav li > a:hover {
+  color: yellow;
+  background-color: transparent;
+}
+
+.sidenav li > a:focus {
+  color: yellow;
+  background-color: transparent;
+}
+
+.contact-icons-mobile li > a, .social-media-icons-mobile li > a {
+  font-size: 32px;
 }

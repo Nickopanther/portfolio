@@ -1,7 +1,7 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
 import PhilliesCameraOperator from '../images/phillies-camera-opereator.jpg';
-import DaBrian from '../images/dabrian.png';
+import DaBrian from '../images/dabrian-about-me.png';
 import CatholicPrayersSkill from '../images/catholic-prayers-skill.png';
 import RingDoorbellSkill from '../images/ring-doorbell-skill.png';
 import WakeUpSkill from '../images/wake-up-skill.png';
@@ -16,8 +16,8 @@ const AboutMe = () => {
    <div className="container content">
       <Helmet>
          <title>About Me - Nick Azzarello</title>
-         <meta name="description" content="testing react helmet" />
-         <meta name="keywords" content="react,seo,helmet" />
+         <meta name="description" content="Learn how I got where I am today. From my journey at Kutztown University to the job I am at right now. Learn how I gained the skills in video production, web development, and Alexa Skills." />
+         <meta name="keywords" content="nick azzarello" />
       </Helmet>
       <h1 className="center title">About Me</h1>
 
@@ -43,7 +43,9 @@ const AboutMe = () => {
                <iframe width="525" height="300" src="https://www.youtube.com/embed/57pngVgjQhE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title="Berks Lanes (Package)"></iframe>
             </div>
          </div>
+
          <hr />
+
          {/* Internship */}
          <div className="row">
             <div className="video-clip col l5">
@@ -59,7 +61,9 @@ const AboutMe = () => {
                </p>
             </div>
          </div>
+
          <hr />
+
          {/* Camera Operator Jobs */}
          <div className="row">
             <div className="col l5">
@@ -78,13 +82,15 @@ const AboutMe = () => {
                   />
             </div>
          </div>
+
          <hr />
+
          {/* DaBrian Marketing Groups */}
          <div className="row">
          <div className="image col l5">
             <a href="https://dabrianmarketing.com" target="_blank" rel="noopener noreferrer">
             <img src={DaBrian}
-               height="400"
+               height="350"
                width="600"
                alt="DaBrian Marketing Group, LLC"
                title="DaBrian Marketing Group, LLC" />
@@ -100,7 +106,9 @@ const AboutMe = () => {
                </p>
             </div>
          </div>
+
          <hr />
+
          {/* Alexa Skills */}
          <div className="row">
             <div className="col l5">
@@ -142,7 +150,9 @@ const AboutMe = () => {
                <iframe width="260" height="140" src="https://www.youtube.com/embed/57pngVgjQhE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title="Berks Lanes (Package)"></iframe>
             </div>
          </div>
+
          <hr />
+
          {/* Internship */}
          <div className="row">
             <div className="col s12">
@@ -158,7 +168,9 @@ const AboutMe = () => {
                <iframe width="260" height="140" src="https://www.youtube.com/embed/GD4s7KgjuOc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen" title="Internship at TC Motion (Lancaster, PA)"></iframe>
             </div>
          </div>
+
          <hr />
+
          {/* Camera Operator Jobs */}
          <div className="row">
             <div className="col s12">
@@ -175,7 +187,9 @@ const AboutMe = () => {
                   />
             </div>
          </div>
+
          <hr />
+
          {/* DaBrian Marketing Groups */}
          <div className="row">
             <div className="col s12">
@@ -187,17 +201,17 @@ const AboutMe = () => {
                   of their clients.
                </p>
             </div>
-            <div className="video-image col s12">
+            <div className="video-image col s12 dabrian-laptop">
             <a href="https://www.amazon.com/Nickopanther-Catholic-Prayers/dp/B0787HK4FN/ref=sr_1_2?s=digital-skills&ie=UTF8&qid=1544401431&sr=1-2&keywords=catholic+prayers" target="_blank" rel="noopener noreferrer">
             <img src={DaBrian}
-               height="400"
-               width="600"
                alt="DaBrian Marketing Group, LLC"
                title="DaBrian Marketing Group, LLC" />
             </a>
             </div>
          </div>
+
          <hr />
+
          {/* Alexa Skills */}
          <div className="row">
             <div className="col s12">
