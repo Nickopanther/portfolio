@@ -1,11 +1,6 @@
-/*
-nav {
-  overflow: hidden;
-  position: fixed;
-  top: 0;
-  width: 100%;
+.hover-test {
+  background-color: #000;
 }
-*/
 
 p {
   font-family: "Source Sans Pro",Sans-serif;
@@ -18,7 +13,6 @@ p {
 }
 
 .brand-logo img {
-  width: 250px;
   padding: 5px 0;
 }
 

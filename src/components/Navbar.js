@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebook, faLinkedin, faInstagram, faYoutube, faTiktok } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope, faPhoneAlt } from "@fortawesome/free-solid-svg-icons";
-import Title from '../images/title.png';
+import NickAzzarelloTitle from './NickAzzarelloTitle';
 
 const Navbar = () => {
     return (
@@ -12,9 +12,7 @@ const Navbar = () => {
             <div className="container">
 
                 <NavLink to="/" className="brand-logo">
-
-                  <img src={Title}
-                       alt="Nick Azzarello" />
+                  <NickAzzarelloTitle />
                 </NavLink>
                   <NavLink to="#" className="sidenav-trigger" data-target="mobile-links">
                     <i className="material-icons">menu</i>
@@ -28,6 +26,7 @@ const Navbar = () => {
                     <li><NavLink to="/contact-me">Contact Me</NavLink></li>
                 </ul>
 
+                {/* Hamburger Menu (Mobile) */}
                 <div className="sidenav" id="mobile-links">
 
                 {/* Links */}
