@@ -4,6 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebook, faLinkedin, faInstagram, faYoutube, faTiktok } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope, faPhoneAlt } from "@fortawesome/free-solid-svg-icons";
 import NickAzzarelloTitle from './NickAzzarelloTitle';
+import Title from '../images/title.png';
 
 const Navbar = () => {
     return (
@@ -13,6 +14,9 @@ const Navbar = () => {
 
                 <NavLink to="/" className="brand-logo">
                   <NickAzzarelloTitle />
+                  <img className="title-mobile"
+                    src={Title}
+                    width="250" />
                 </NavLink>
                   <NavLink to="#" className="sidenav-trigger" data-target="mobile-links">
                     <i className="material-icons">menu</i>

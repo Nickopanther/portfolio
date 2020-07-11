@@ -7,7 +7,7 @@ class NickAzzarelloTitle extends Component {
   }
   render () {
     return (
-        <img
+        <img className="title-desktop"
           src={this.state.img}
           width="250"
 
