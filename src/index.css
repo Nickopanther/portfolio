@@ -1,3 +1,5 @@
+/* Code taken from Materialize */
+
 .indigo-text.text-lighten-3 {
   color: #9fa8da !important;
 }
@@ -5,7 +7,6 @@
 .indigo.darken-3 {
   background-color: #283593 !important;
 }
-
 
 .indigo.darken-4 {
   background-color: #1a237e !important;
