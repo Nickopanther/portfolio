@@ -269,7 +269,7 @@ const AlexaSkills = () => {
          </div>
       </div>
       <div className="container center">
-         <Link to="/videos#alexa-videos" className="white-text text-lighten-3">
+         <Link to="/videos/#alexa-videos" className="white-text text-lighten-3">
            <button className="btn-large green">
              Alexa Videos
              </button>
