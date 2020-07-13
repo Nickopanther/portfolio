@@ -35,7 +35,7 @@ class Home extends Component {
    <div className="container">
       <div className="center video">
          <div className="video-clip">
-            <iframe width="617" height="343" src="https://www.youtube.com/embed/pETA3tjP6Os" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="617" height="343" src="https://www.youtube.com/embed/pETA3tjP6Os" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen title="Nick Azzarello's Website"></iframe>
          </div>
          <div className="video-content">
             <h2 className="green-text text-darken-3">Get to Know Me in Only 2 (in a half) Minutes!</h2>
@@ -57,28 +57,28 @@ class Home extends Component {
       {/* Skills/Services */}
       <div className="row skills">
         <div className="col s12 m6 l4">
-            <a className="indigo-text text-darken-4" href="/videos" rel="noopener noreferrer">
+            <Link to="/videos" className="indigo-text text-darken-4" rel="noopener noreferrer">
                <img src={Clapboard}
                     height="150"
                     alt="Clapbaord"/>
                <h3 className="center">Videos</h3>
-            </a>
+            </Link>
         </div>
         <div className="col s12 m6 l4">
-            <a className="indigo-text text-darken-4" href="/websites" rel="noopener noreferrer">
+            <Link to="/websites" className="indigo-text text-darken-4" rel="noopener noreferrer">
             <img src={Computer}
                  height="150"
                  alt="Computer"/>
                <h3 className="center">Websites</h3>
-            </a>
+            </Link>
         </div>
         <div className="col s12 m6 l4">
-            <a className="indigo-text text-darken-4" href="/alexa-skills" target="_blank" rel="noopener noreferrer">
+            <Link to="/alexa-skills" className="indigo-text text-darken-4" rel="noopener noreferrer">
             <img src={Echo}
                  height="150"
                  alt="Echo"/>
                <h3 className="center">Alexa Skills</h3>
-            </a>
+            </Link>
         </div>
       </div>
 

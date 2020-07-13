@@ -16,6 +16,7 @@ const Navbar = () => {
                   <NickAzzarelloTitle />
                   <img className="title-mobile"
                     src={Title}
+                    alt="Nick Azzarello"
                     width="250" />
                 </NavLink>
                   <NavLink to="#" className="sidenav-trigger" data-target="mobile-links">

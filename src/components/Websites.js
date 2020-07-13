@@ -23,7 +23,7 @@ const Websites = () => {
 
             <h1 className="center title">Websites</h1>
             <p>Websites that I have helped build and maintain
-            at <a className="green-text text-darken-3" href="https://dabrianmarketing.com" target="_blank">DaBrian Marketing Group, LLC</a>.
+            at <a className="green-text text-darken-3" href="https://dabrianmarketing.com" target="_blank" rel="noopener noreferrer">DaBrian Marketing Group, LLC</a>.
             All websites have been made on WordPress with the help of the plugin,
             Elementor. Plugins from WPMU Dev also play a role in optimization,
             security, and SEO. Click on an image, or title, to explore a site.</p>

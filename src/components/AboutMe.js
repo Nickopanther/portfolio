@@ -3,12 +3,7 @@ import { Helmet } from 'react-helmet';
 import PhilliesCameraOperator from '../images/phillies-camera-opereator.jpg';
 import DaBrian from '../images/dabrian-about-me.png';
 import CatholicPrayersSkill from '../images/catholic-prayers-skill.png';
-import RingDoorbellSkill from '../images/ring-doorbell-skill.png';
-import WakeUpSkill from '../images/wake-up-skill.png';
 import ContactCTA from './ContactCTA';
-
-{/* Create Dummy Lorem Ipsum titles and content to have them be equal and consistent
-    and write your content based on that */}
 
 const AboutMe = () => {
     return (
@@ -40,7 +35,7 @@ const AboutMe = () => {
                </p>
             </div>
             <div className="video-clip col l5 offset-l2">
-               <iframe width="525" height="300" src="https://www.youtube.com/embed/57pngVgjQhE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title="Berks Lanes (Package)"></iframe>
+               <iframe width="525" height="300" src="https://www.youtube.com/embed/57pngVgjQhE" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen title="Berks Lanes (Package)"></iframe>
             </div>
          </div>
 
@@ -49,7 +44,7 @@ const AboutMe = () => {
          {/* Internship */}
          <div className="row">
             <div className="video-clip col l5">
-               <iframe width="525" height="300"width="525" height="300" src="https://www.youtube.com/embed/GD4s7KgjuOc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen" title="Internship at TC Motion (Lancaster, PA)"></iframe>
+               <iframe width="525" height="300" src="https://www.youtube.com/embed/GD4s7KgjuOc" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen="allowFullScreen" title="Internship at TC Motion (Lancaster, PA)"></iframe>
             </div>
             <div className="col l5 offset-l2">
                <h2 className="green-text text-darken-3">Internship at TC Motion</h2>
@@ -147,7 +142,7 @@ const AboutMe = () => {
                </p>
             </div>
             <div className="video-image col s12 ">
-               <iframe width="260" height="140" src="https://www.youtube.com/embed/57pngVgjQhE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title="Berks Lanes (Package)"></iframe>
+               <iframe width="260" height="140" src="https://www.youtube.com/embed/57pngVgjQhE" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen title="Berks Lanes (Package)"></iframe>
             </div>
          </div>
 
@@ -165,7 +160,7 @@ const AboutMe = () => {
                </p>
             </div>
             <div className="video-image col s12">
-               <iframe width="260" height="140" src="https://www.youtube.com/embed/GD4s7KgjuOc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen" title="Internship at TC Motion (Lancaster, PA)"></iframe>
+               <iframe width="260" height="140" src="https://www.youtube.com/embed/GD4s7KgjuOc" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen="allowFullScreen" title="Internship at TC Motion (Lancaster, PA)"></iframe>
             </div>
          </div>
 

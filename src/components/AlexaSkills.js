@@ -1,5 +1,6 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
+import { Link } from 'react-router-dom';
 import CatholicPrayersSkill from '../images/catholic-prayers-skill.png'
 import RingDoorbellSkill from '../images/ring-doorbell-skill.png';
 import WakeUpSkill from '../images/wake-up-skill.png';
@@ -268,11 +269,11 @@ const AlexaSkills = () => {
          </div>
       </div>
       <div className="container center">
-         <a href="/videos#alexa-videos" className="white-text text-lighten-3">
+         <Link to="/videos#alexa-videos" className="white-text text-lighten-3">
            <button className="btn-large green">
              Alexa Videos
              </button>
-         </a>
+         </Link>
       </div>
    </div>
    <ContactCTA />

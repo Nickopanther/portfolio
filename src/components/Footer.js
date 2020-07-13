@@ -67,7 +67,7 @@ const Footer = () => {
               </a>
             </li>
             <li className="font-awesome-icon">
-              <a className="white-text text-lighten-3" href="https://www.tiktok.com/@nicko_azzarello?lang=en" target="_blank" target="_blank" rel="noopener noreferrer" title="TikTok">
+              <a className="white-text text-lighten-3" href="https://www.tiktok.com/@nicko_azzarello?lang=en" target="_blank" rel="noopener noreferrer" title="TikTok">
                 <FontAwesomeIcon icon={faTiktok} />
               </a>
             </li>

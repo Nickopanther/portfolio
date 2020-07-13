@@ -9,6 +9,7 @@ class NickAzzarelloTitle extends Component {
     return (
         <img className="title-desktop"
           src={this.state.img}
+          alt="Nick Azzarello"
           width="250"
 
           onMouseEnter={() => {
