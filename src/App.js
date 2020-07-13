@@ -21,7 +21,7 @@ class App extends Component {
             <Navbar />
             <Switch>
               <Route exact path="/" component={Home} />
-              <Route path="/about-me" component={AboutMe} />
+              <Route exact path="/about-me" component={AboutMe} />
               <Route path="/videos" component={Videos} />
               <Route path="/websites" component={Websites} />
               <Route path="/alexa-skills" component={AlexaSkills} />
