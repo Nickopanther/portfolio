@@ -1,27 +1,25 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
-import CatholicPrayersSkill from '../images/catholic-prayers-skill.png'
+import PigNoisesSkill from '../images/pig-noises-skill.png'
 import RingDoorbellSkill from '../images/ring-doorbell-skill.png';
-import WakeUpSkill from '../images/wake-up-skill.png';
+import TrainSoundsSkill from '../images/train-sounds-skill.png';
 import EaglesChantSkill from '../images/eagles-chant-skill.png';
-import MostFamousPrincessBrideQuoteSkill from '../images/most-famous-princess-bride-quote-skill.png';
-import TitanicSkill from '../images/titanic-skill.png';
+import HowlingDogsSkill from '../images/howling-dogs-skill.png';
 import CleanupSkill from '../images/cleanup-game-skill.png';
 import TheUglyBarnacleSkill from '../images/the-ugly-barnacle-skill.png';
 import ChristmasGuitarSkill from '../images/christmas-guitar-skill.png';
 import CowSoundsSkill from '../images/cow-sounds-skill.png';
 import ElephantSoundsSkill from '../images/elephant-sounds-skill.png';
+import SquirrelSoundsSkill from '../images/squirrel-sounds-skill.png';
 import RomeoAndJulietQuotesSkill from '../images/romeo-and-juliet-quotes-skill.png';
 import HamletQuotesSkill from '../images/hamlet-quotes-skill.png';
-import ItalySightsSkill from '../images/italy-sights-skill.png';
-import LetsGoCampingSkill from '../images/lets-go-camping-skill.png';
-import UnofficialEasyButtonSkill from '../images/unofficial-easy-button-skill.png';
-import DeerSoundsSkill from '../images/deer-sounds-skill.png';
-import BurpSoundsSkill from '../images/burp-sounds-skill.png';
+import CatSoundsSkill from '../images/cat-sounds-skill.png';
+import UnofficialEasyButtonSkill from '../images/unofficial-easy-button-skill-japanese.png';
+import BurpSoundsSkill from '../images/burp-sounds-skill-japanese.png';
 import AirplaneSoundsSkill from '../images/airplane-sounds-skill.png';
 import HelicopterSoundsSkill from '../images/helicopter-sounds-skill.png';
 import KnockOnDoorSkill from '../images/knock-on-door-skill.png';
-import MonkeySoundsSkill from '../images/monkey-sounds-skill.png';
+import BeepHornSkill from '../images/beep-horn-skill.png';
 import UnitedStates from '../images/us.png';
 import Canada from '../images/canada.png';
 import UnitedKingdom from '../images/uk.png';
@@ -62,258 +60,158 @@ const AlexaSkillsIndia = () => {
       </div>
       <div className="row one">
          <div className="alexa col s12 m4 l4">
-            <div className="alexa-image">
-               <a href="" target="_blank" rel="noopener noreferrer">
-               <img src={CatholicPrayersSkill}
-                    height="210"
-                    width="210"
-                    alt="Prières Catholiques"
-                    title="Prières Catholiques"
-                />
-               </a>
-            </div>
-            <div className="alexa-content">
-               <a href="" target="_blank" rel="noopener noreferrer">
-                  <h3 className="center title indigo-text text-darken-4">Prières Catholiques</h3>
-               </a>
-            </div>
+         <div className="alexa-image">
+            <a href="https://www.amazon.in/Nickopanther-Howling-Dogs/dp/B082ZSTLCQ/ref=sr_1_26?dchild=1&keywords=nickopanther&qid=1597437738&s=digital-skills&sr=1-26" target="_blank" rel="noopener noreferrer">
+            <img src={HowlingDogsSkill}
+               height="210"
+               width="210"
+               alt="Howling Dogs / आवारा क"
+               title="Howling Dogs / आवारा क" />
+            </a>
+         </div>
+         <div className="alexa-content">
+            <a href="https://www.amazon.in/Nickopanther-Howling-Dogs/dp/B082ZSTLCQ/ref=sr_1_26?dchild=1&keywords=nickopanther&qid=1597437738&s=digital-skills&sr=1-26" target="_blank" rel="noopener noreferrer">
+               <h3 className="center title indigo-text text-darken-4">Howling Dogs / आवारा क</h3>
+            </a>
+         </div>
          </div>
          <div className="alexa col s12 m4 l4">
-            <div className="alexa-image">
-               <a href="" target="_blank" rel="noopener noreferrer">
-               <img src={RingDoorbellSkill}
-                  height="210"
-                  width="210"
-                  alt="Sonnerie de Porte"
-                  title="Sonnerie de Porte" />
-               </a>
-            </div>
-            <div className="alexa-content">
-               <a href="" target="_blank" rel="noopener noreferrer">
-                  <h3 className="center title indigo-text text-darken-4">Sonnerie de Porte</h3>
-               </a>
-            </div>
+         <div className="alexa-image">
+            <a href="https://www.amazon.in/Nickopanther-Burp-Sounds/dp/B089ZVRH6R/ref=sr_1_4?dchild=1&keywords=nickopanther&language=en_IN&qid=1597437144&s=digital-skills&sr=1-4" target="_blank" rel="noopener noreferrer">
+            <img src={BurpSoundsSkill}
+               height="210"
+               width="210"
+               alt="Burp Sounds / Burp लगता है"
+               title="Burp Sounds / Burp लगता ह" />
+            </a>
+         </div>
+         <div className="alexa-content">
+            <a href="https://www.amazon.in/Nickopanther-Burp-Sounds/dp/B089ZVRH6R/ref=sr_1_4?dchild=1&keywords=nickopanther&language=en_IN&qid=1597437144&s=digital-skills&sr=1-4" target="_blank" rel="noopener noreferrer">
+               <h3 className="center title indigo-text text-darken-4">Burp Sounds / Burp लगता ह</h3>
+            </a>
+         </div>
          </div>
          <div className="alexa col s12 m4 l4">
-            <div className="alexa-image">
-               <a href="" target="_blank" rel="noopener noreferrer">
-               <img src={WakeUpSkill}
-                  height="210"
-                  width="210"
-                  alt="Se réveiller"
-                  title="Se réveiller" />
-               </a>
-            </div>
-            <div className="alexa-content">
-               <a href="" target="_blank" rel="noopener noreferrer">
-                  <h3 className="center title indigo-text text-darken-4">Se réveiller</h3>
-               </a>
-            </div>
+         <div className="alexa-image">
+            <a href="https://www.amazon.in/%E0%A4%96%E0%A5%87%E0%A4%B2-%E0%A4%95%E0%A5%8B-%E0%A4%B8%E0%A4%BE%E0%A4%AB-%E0%A4%95%E0%A4%B0%E0%A5%87%E0%A4%82/dp/B07BV3FDJD/ref=sr_1_36?dchild=1&keywords=nickopanther&qid=1597437928&s=digital-skills&sr=1-36" target="_blank" rel="noopener noreferrer">
+            <img src={CleanupSkill}
+                 alt="Cleanup Game / खेल को साफ करें"
+                 title="Cleanup Game / खेल को साफ करे"
+                 height="210"
+                 width="210"
+             />
+            </a>
+         </div>
+         <div className="alexa-content">
+            <a href="https://www.amazon.in/%E0%A4%96%E0%A5%87%E0%A4%B2-%E0%A4%95%E0%A5%8B-%E0%A4%B8%E0%A4%BE%E0%A4%AB-%E0%A4%95%E0%A4%B0%E0%A5%87%E0%A4%82/dp/B07BV3FDJD/ref=sr_1_36?dchild=1&keywords=nickopanther&qid=1597437928&s=digital-skills&sr=1-36" target="_blank" rel="noopener noreferrer">
+               <h3 className="center title indigo-text text-darken-4">Cleanup Game / खेल को साफ करे</h3>
+            </a>
+         </div>
          </div>
       </div>
       <div className="row two">
-         <div className="alexa col s12 m4 l4">
-            <div className="alexa-image">
-              <a href="" target="_blank" rel="noopener noreferrer">
-              <img src={KnockOnDoorSkill}
-                  height="210"
-                  width="210"
-                  alt="Frappe à la Porte"
-                  title="Frappe à la Porte" />
-              </a>
-            </div>
-            <div className="alexa-content">
-              <a href="" target="_blank" rel="noopener noreferrer">
-                <h3 className="center title indigo-text text-darken-4">Frappe à la Porte</h3>
-              </a>
-            </div>
+      <div className="alexa col s12 m4 l4">
+         <div className="alexa-image">
+            <a href="https://www.amazon.in/%E0%A4%B9%E0%A4%BE%E0%A4%A5%E0%A5%80-%E0%A4%95%E0%A4%BE-%E0%A4%B6%E0%A5%8B%E0%A4%B0/dp/B08413QSY7/ref=sr_1_18?dchild=1&keywords=nickopanther&qid=1597437738&s=digital-skills&sr=1-18" target="_blank" rel="noopener noreferrer">
+            <img src={ElephantSoundsSkill}
+               height="210"
+               width="210"
+               alt="Elephant Sounds / हाथी का शोर"
+               title="Elephant Sounds / हाथी का शोर" />
+            </a>
          </div>
-         <div className="alexa col s12 m4 l4">
-            <div className="alexa-image">
-               <a href="" target="_blank" rel="noopener noreferrer">
-               <img src={MostFamousPrincessBrideQuoteSkill}
-                    height="210"
-                    width="210"
-                    alt="Citation la plus célèbre de la Princess Bride"
-                    title="Citation la plus célèbre de la Princess Bride" />
-               </a>
-            </div>
-            <div className="alexa-content">
-               <a href="" target="_blank" rel="noopener noreferrer">
-                  <h3 className="center title indigo-text text-darken-4">Citation la plus célèbre de la Princess Bride</h3>
-               </a>
-            </div>
+         <div className="alexa-content">
+            <a href="https://www.amazon.in/%E0%A4%B9%E0%A4%BE%E0%A4%A5%E0%A5%80-%E0%A4%95%E0%A4%BE-%E0%A4%B6%E0%A5%8B%E0%A4%B0/dp/B08413QSY7/ref=sr_1_18?dchild=1&keywords=nickopanther&qid=1597437738&s=digital-skills&sr=1-18" target="_blank" rel="noopener noreferrer">
+               <h3 className="center title indigo-text text-darken-4">Elephant Sounds / हाथी का शोर</h3>
+            </a>
          </div>
+      </div>
+      <div className="alexa col s12 m4 l4">
+         <div className="alexa-image">
+            <a href="https://www.amazon.in/Nickopanther-Cow-Sounds/dp/B084TSCMTY/ref=sr_1_14?dchild=1&keywords=nickopanther&qid=1597437144&s=digital-skills&sr=1-14" target="_blank" rel="noopener noreferrer">
+            <img src={CowSoundsSkill}
+               height="210"
+               width="210"
+               title="Cow Sounds / गाय लगता है"
+               alt="Cow Sounds / गाय लगता है" />
+            </a>
+         </div>
+         <div className="alexa-content">
+            <a href="https://www.amazon.in/Nickopanther-Cow-Sounds/dp/B084TSCMTY/ref=sr_1_14?dchild=1&keywords=nickopanther&qid=1597437144&s=digital-skills&sr=1-14" target="_blank" rel="noopener noreferrer">
+               <h3 className="center title indigo-text text-darken-4">Cow Sounds / गाय लगता ह</h3>
+            </a>
+         </div>
+      </div>
          <div className="alexa col s12 m4 l4">
-            <div className="alexa-image">
-              <a href="" target="_blank" rel="noopener noreferrer">
-              <img src={MonkeySoundsSkill}
-                   height="210"
-                   width="210"
-                   alt="Sons de Singe"
-                   title="Sons de Singe" />
-              </a>
-            </div>
-            <div className="alexa-content">
-              <a href="" target="_blank" rel="noopener noreferrer">
-               <h3 className="center title indigo-text text-darken-4">Sons de Singe</h3>
-              </a>
-            </div>
+         <div className="alexa-image">
+            <a href="https://www.amazon.in/Nickopanther-Staples-Easy-Button/dp/B07GDCJ526/ref=sr_1_33?dchild=1&keywords=nickopanther&qid=1597437928&s=digital-skills&sr=1-33" target="_blank" rel="noopener noreferrer">
+            <img src={UnofficialEasyButtonSkill}
+               height="210"
+               width="210"
+               alt="Unofficial Easy Button / अनौपचारिक आसान बटन"
+               title="Unofficial Easy Button / अनौपचारिक आसान बटन" />
+            </a>
+         </div>
+         <div className="alexa-content">
+            <a href="https://www.amazon.in/Nickopanther-Staples-Easy-Button/dp/B07GDCJ526/ref=sr_1_33?dchild=1&keywords=nickopanther&qid=1597437928&s=digital-skills&sr=1-33" target="_blank" rel="noopener noreferrer">
+               <h3 className="center title indigo-text text-darken-4">Unofficial Easy Button / अनौपचारिक आसान बटन</h3>
+            </a>
+         </div>
          </div>
       </div>
       <div className="row three">
          <div className="alexa col s12 m4 l4">
-            <div className="alexa-image">
-               <a href="" target="_blank" rel="noopener noreferrer">
-               <img src={CleanupSkill}
-                    alt="Jeu de Nettoyages"
-                    title="Jeu de Nettoyages"
-                    height="210"
-                    width="210"
-                />
-               </a>
-            </div>
-            <div className="alexa-content">
-               <a href="" target="_blank" rel="noopener noreferrer">
-                  <h3 className="center title indigo-text text-darken-4">Jeu de Nettoyages</h3>
-               </a>
-            </div>
+         <div className="alexa-image">
+            <a href="https://www.amazon.in/Nickopanther-Ring-Doorbell/dp/B07MCSVRX2/ref=sr_1_28?dchild=1&keywords=nickopanther&qid=1597437632&s=digital-skills&sr=1-28" target="_blank" rel="noopener noreferrer">
+            <img src={RingDoorbellSkill}
+               height="210"
+               width="210"
+               alt="Ring Doorbell"
+               title="Ring Doorbell" />
+            </a>
+         </div>
+         <div className="alexa-content">
+            <a href="" target="_blank" rel="noopener noreferrer">
+               <h3 className="center title indigo-text text-darken-4">Ring Doorbell</h3>
+            </a>
+         </div>
          </div>
          <div className="alexa col s12 m4 l4">
             <div className="alexa-image">
-              <a href="" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.amazon.in/Nickopanther-Airplane-Sounds/dp/B087C4LTFW/ref=sr_1_10?dchild=1&keywords=nickopanther&qid=1597438174&s=digital-skills&sr=1-10" target="_blank" rel="noopener noreferrer">
               <img src={AirplaneSoundsSkill}
-                 alt="Sons D'Avion"
-                 title="Sons D'Avion"
+                 alt="Airplane Sounds"
+                 title="Airplane Sounds"
                  height="210"
                  width="210"
               />
               </a>
             </div>
             <div className="alexa-content">
-              <a href="" target="_blank" rel="noopener noreferrer">
-                <h3 className="center title indigo-text text-darken-4">Sons D'Avion</h3>
+              <a href="https://www.amazon.in/Nickopanther-Airplane-Sounds/dp/B087C4LTFW/ref=sr_1_10?dchild=1&keywords=nickopanther&qid=1597438174&s=digital-skills&sr=1-10" target="_blank" rel="noopener noreferrer">
+                <h3 className="center title indigo-text text-darken-4">Airplane Sounds</h3>
               </a>
             </div>
          </div>
          <div className="alexa col s12 m4 l4">
             <div className="alexa-image">
-              <a href="" target="_blank" rel="noopener noreferrer">
-                <img src={HelicopterSoundsSkill}
-                     alt="Sons d'hélicoptère"
-                     title="Sons d'hélicoptère"
+              <a href="https://www.amazon.in/Nickopanther-Romeo-and-Juliet-Quotes/dp/B084LFJCRB/ref=sr_1_15?dchild=1&keywords=nickopanther&qid=1597438174&s=digital-skills&sr=1-15" target="_blank" rel="noopener noreferrer">
+                <img src={RomeoAndJulietQuotesSkill}
+                     alt="Romeo and Juliet Quotes"
+                     title="Romeo and Juliet Quotes"
                      height="210"
                      width="210"
                 />
               </a>
             </div>
             <div className="alexa-content">
-              <a href="" target="_blank" rel="noopener noreferrer">
-              <h3 className="center title indigo-text text-darken-4">Sons d'hélicoptère</h3>
+              <a href="https://www.amazon.in/Nickopanther-Romeo-and-Juliet-Quotes/dp/B084LFJCRB/ref=sr_1_15?dchild=1&keywords=nickopanther&qid=1597438174&s=digital-skills&sr=1-15" target="_blank" rel="noopener noreferrer">
+              <h3 className="center title indigo-text text-darken-4">Romeo and Juliet Quotes</h3>
             </a>
           </div>
          </div>
       </div>
-      <div className="row four">
-         <div className="alexa col s12 m4 l4">
-            <div className="alexa-image">
-               <a href="" target="_blank" rel="noopener noreferrer">
-               <img src={LetsGoCampingSkill}
-                  height="210"
-                  width="210"
-                  alt="Allons camper"
-                  title="Allons camper" />
-               </a>
-            </div>
-            <div className="alexa-content">
-               <a href="" target="_blank" rel="noopener noreferrer">
-                  <h3 className="center title indigo-text text-darken-4">Allons camper</h3>
-               </a>
-            </div>
-         </div>
-         <div className="alexa col s12 m4 l4">
-            <div className="alexa-image">
-               <a href="" target="_blank" rel="noopener noreferrer">
-               <img src={ElephantSoundsSkill}
-                  height="210"
-                  width="210"
-                  alt="Sons d'éléphants"
-                  title="Sons d'éléphants" />
-               </a>
-            </div>
-            <div className="alexa-content">
-               <a href="" target="_blank" rel="noopener noreferrer">
-                  <h3 className="center title indigo-text text-darken-4">Sons d'éléphants</h3>
-               </a>
-            </div>
-         </div>
-         <div className="alexa col s12 m4 l4">
-            <div className="alexa-image">
-               <a href="" target="_blank" rel="noopener noreferrer">
-               <img src={CowSoundsSkill}
-                  height="210"
-                  width="210"
-                  title="Sons de Vache"
-                  alt="Sons de Vache" />
-               </a>
-            </div>
-            <div className="alexa-content">
-               <a href="" target="_blank" rel="noopener noreferrer">
-                  <h3 className="center title indigo-text text-darken-4">Sons de Vache</h3>
-               </a>
-            </div>
-         </div>
-      </div>
-      <div className="row five">
-         <div className="alexa col s12 m4 l4">
-            <div className="alexa-image">
-               <a href="" target="_blank" rel="noopener noreferrer">
-               <img src={UnofficialEasyButtonSkill}
-                  height="210"
-                  width="210"
-                  alt="Bouton facile non officiel"
-                  title="Bouton facile non officiel" />
-               </a>
-            </div>
-            <div className="alexa-content">
-               <a href="" target="_blank" rel="noopener noreferrer">
-                  <h3 className="center title indigo-text text-darken-4">Bouton facile non officiel</h3>
-               </a>
-            </div>
-         </div>
-         <div className="alexa col s12 m4 l4">
-            <div className="alexa-image">
-               <a href="" target="_blank" rel="noopener noreferrer">
-               <img src={BurpSoundsSkill}
-                  height="210"
-                  width="210"
-                  alt="Sons de Rots"
-                  title="Sons de Rots" />
-               </a>
-            </div>
-            <div className="alexa-content">
-               <a href="" target="_blank" rel="noopener noreferrer">
-                  <h3 className="center title indigo-text text-darken-4">Sons de Rots</h3>
-               </a>
-            </div>
-         </div>
-         <div className="alexa col s12 m4 l4">
-            <div className="alexa-image">
-               <a href="" target="_blank" rel="noopener noreferrer">
-               <img src={DeerSoundsSkill}
-                  height="210"
-                  width="210"
-                  title="Sons de cerf"
-                  alt="Sons de cerf" />
-               </a>
-            </div>
-            <div className="alexa-content">
-               <a href="" target="_blank" rel="noopener noreferrer">
-                  <h3 className="center title indigo-text text-darken-4">Sons de cerf</h3>
-               </a>
-            </div>
-         </div>
-      </div>
+
       <div className="container">
         <h2 className="center title">Alexa Skills in other Countries</h2>
         <p>If you live outside of India and are interested in one of my

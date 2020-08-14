@@ -47,8 +47,8 @@ const AlexaSkillsFrance = () => {
       on any Alexa device. Click on an image, or name, to learn more about a skill.</p>
       <hr />
       <h1 className="center title">Alexa Skills en France</h1>
-      <p>Une liste des nombreuses compétences Alexa que j'ai créées et qui peuvent être utilisées
-      sur n'importe quel appareil Alexa. Cliquez sur une image ou un nom pour en savoir plus sur une compétence.</p>
+      <p>Une liste des nombreuses Alexa Skills que j'ai créées et qui peuvent être utilisées
+      sur n'importe quel appareil Alexa. Cliquez sur une image ou un nom pour en savoir plus sur une skill.</p>
       <div className="center">
         <img src={France}
              height="135"
