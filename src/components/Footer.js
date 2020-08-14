@@ -18,9 +18,9 @@ const Footer = () => {
             <ul className="footer-links">
                 <li><ScrollToTop><Link to="/" className="white-text text-lighten-3">Home</Link></ScrollToTop></li>
                 <li><ScrollToTop><Link to="/about-me" className="about white-text text-lighten-3">About Me</Link></ScrollToTop></li>
+                <li><ScrollToTop><Link to="/alexa-skills" className="white-text text-lighten-3">Alexa Skills</Link></ScrollToTop></li>
                 <li><ScrollToTop><Link to="/videos" className="white-text text-lighten-3">Videos</Link></ScrollToTop></li>
                 <li><ScrollToTop><Link to="/websites" className="white-text text-lighten-3">Websites</Link></ScrollToTop></li>
-                <li><ScrollToTop><Link to="/alexa-skills" className="white-text text-lighten-3">Alexa Skills</Link></ScrollToTop></li>
                 <li><ScrollToTop><Link to="/contact-me" className="white-text text-lighten-3">Contact Me</Link></ScrollToTop></li>
             </ul>
         </div>

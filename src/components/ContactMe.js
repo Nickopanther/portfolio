@@ -9,8 +9,8 @@ const ContactMe = () => {
         <div className="ContactMe container content">
             <Helmet>
                 <title>Contact Me - Nick Azzarello</title>
-                <meta name="description" content="testing react helmet" />
-                <meta name="keywords" content="react,seo,helmet" />
+                <meta name="description" content="Ways to contact Nick Azzarello." />
+                <meta name="keywords" content="nick azzarello, nickopanther" />
             </Helmet>
 
             <h1 className="center title">Contact Me</h1>

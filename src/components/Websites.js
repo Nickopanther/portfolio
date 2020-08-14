@@ -18,7 +18,7 @@ const Websites = () => {
             <Helmet>
                 <title>Websites - Nick Azzarello</title>
                 <meta name="description" content="Websites Nick Azzarello has done for clients for a small digital marketing agency he's worked for." />
-                <meta name="keywords" content="nick azzarello, websites, wordpress" />
+                <meta name="keywords" content="nick azzarello, nickopanther, websites, wordpress" />
             </Helmet>
 
             <h1 className="center title">Websites</h1>

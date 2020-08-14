@@ -25,9 +25,9 @@ const Navbar = () => {
 
                 <ul className="nav-links right hide-on-med-and-down">
                     <li><NavLink to="/about-me">About Me</NavLink></li>
+                    <li><NavLink to="/alexa-skills">Alexa Skills</NavLink></li>
                     <li><NavLink to="/videos">Videos</NavLink></li>
                     <li><NavLink to="/websites">Websites</NavLink></li>
-                    <li><NavLink to="/alexa-skills">Alexa Skills</NavLink></li>
                     <li><NavLink to="/contact-me">Contact Me</NavLink></li>
                 </ul>
 
@@ -38,9 +38,9 @@ const Navbar = () => {
                 <ul className="nav-links">
                   <li><NavLink to="/">Home</NavLink></li>
                   <li><NavLink to="/about-me">About Me</NavLink></li>
+                  <li><NavLink to="/alexa-skills">Alexa Skills</NavLink></li>
                   <li><NavLink to="/videos">Videos</NavLink></li>
                   <li><NavLink to="/websites">Websites</NavLink></li>
-                  <li><NavLink to="/alexa-skills">Alexa Skills</NavLink></li>
                   <li><NavLink to="/contact-me">Contact Me</NavLink></li>
                 </ul>
 

@@ -12,7 +12,7 @@ const AboutMe = () => {
       <Helmet>
          <title>About Me - Nick Azzarello</title>
          <meta name="description" content="Learn how I got where I am today. From my journey at Kutztown University to the job I am at right now. Learn how I gained the skills in video production, web development, and Alexa Skills." />
-         <meta name="keywords" content="nick azzarello" />
+         <meta name="keywords" content="nick azzarello, nickopanther" />
       </Helmet>
       <h1 className="center title">About Me</h1>
 

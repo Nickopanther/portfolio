@@ -13,9 +13,9 @@ class Home extends Component {
           <div className="Home">
    <Helmet>
       <title>Nick Azzarello</title>
-      <meta name="description" content="testing react helmet" />
-      <meta name="keywords" content="react,seo,helmet" />
-   </Helmet>
+      <meta name="description" content="Nick Azzarello's portfolio that showcases his work with videos, websites, and Alexa Skills." />
+      <meta name="keywords" content="nick azzarello, nickopanther" />
+  </Helmet>
 
    {/* Hero Image */}
    <div className="hero">
@@ -57,6 +57,14 @@ class Home extends Component {
       {/* Skills/Services */}
       <div className="row skills">
         <div className="col s12 m6 l4">
+          <Link to="/alexa-skills" className="indigo-text text-darken-4" rel="noopener noreferrer">
+          <img src={Echo}
+               height="150"
+               alt="Echo"/>
+             <h3 className="center">Alexa Skills</h3>
+          </Link>
+        </div>
+        <div className="col s12 m6 l4">
             <Link to="/videos" className="indigo-text text-darken-4" rel="noopener noreferrer">
                <img src={Clapboard}
                     height="150"
@@ -70,14 +78,6 @@ class Home extends Component {
                  height="150"
                  alt="Computer"/>
                <h3 className="center">Websites</h3>
-            </Link>
-        </div>
-        <div className="col s12 m6 l4">
-            <Link to="/alexa-skills" className="indigo-text text-darken-4" rel="noopener noreferrer">
-            <img src={Echo}
-                 height="150"
-                 alt="Echo"/>
-               <h3 className="center">Alexa Skills</h3>
             </Link>
         </div>
       </div>

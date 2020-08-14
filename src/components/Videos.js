@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Helmet } from 'react-helmet';
+
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faYoutube, faTiktok } from "@fortawesome/free-brands-svg-icons";
 import ContactCTA from './ContactCTA';
@@ -9,11 +9,7 @@ const Videos = () => {
   return (
     <div className="Videos">
    <div className="container content">
-      <Helmet>
-         <title>Videos - Nick Azzarello</title>
-         <meta name="description" content="Video content created by Nick Azzarello. Videos have been created for courses at Kutztown University, clients for a small digital marketing agency, and demonstration videos for Alexa Skills he has made."/>
-         <meta name="keywords" content="nick azzarello, videos, video production"/>
-      </Helmet>
+
 
       <h1 className="center title">Videos</h1>
       <p>Video production has always been a passion of mine. I enjoy every aspect
