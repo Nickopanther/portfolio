@@ -2520,3 +2520,56 @@ footer li {
 .contact-icons-mobile li > a, .social-media-icons-mobile li > a {
   font-size: 32px;
 }
+
+/* Flag image on iPad Pro */
+@media only screen and (max-width: 1024px) and (min-width: 993px) {
+
+  .AlexaSkills .row .col.l3  {
+    width: 50%;
+  }
+
+  .AlexaSkillsCanada .row .col.l3  {
+    width: 50%;
+  }
+
+  .AlexaSkillsUnitedKingdom .row .col.l3  {
+    width: 50%;
+  }
+
+  .AlexaSkillsAustralia .row .col.l3  {
+    width: 50%;
+  }
+
+  .AlexaSkillsMexico .row .col.l3  {
+    width: 50%;
+  }
+
+  .AlexaSkillsSpain .row .col.l3  {
+    width: 50%;
+  }
+
+  .AlexaSkillsBrazil .row .col.l3  {
+    width: 50%;
+  }
+
+  .AlexaSkillsFrance .row .col.l3  {
+    width: 50%;
+  }
+
+  .AlexaSkillsGermany .row .col.l3  {
+    width: 50%;
+  }
+
+  .AlexaSkillsItaly .row .col.l3  {
+    width: 50%;
+  }
+
+  .AlexaSkillsJapan .row .col.l3  {
+    width: 50%;
+  }
+
+  .AlexaSkillsIndia .row .col.l3  {
+    width: 50%;
+  }
+
+}

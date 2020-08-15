@@ -303,7 +303,7 @@ const AlexaSkillsJapan = () => {
         is available.</p>
 
         <div className="row one">
-           <div className="alexa col s12 m3 l3">
+           <div className="alexa col s12 m6 l3">
               <div className="flag-image">
                  <a href="/alexa-skills" rel="noopener noreferrer">
                  <img src={UnitedStates}
@@ -315,7 +315,7 @@ const AlexaSkillsJapan = () => {
                  </a>
               </div>
            </div>
-           <div className="alexa col s12 m3 l3">
+           <div className="alexa col s12 m6 l3">
               <div className="flag-image">
                  <a href="/alexa-skills-canada" rel="noopener noreferrer">
                  <img src={Canada}
@@ -327,7 +327,7 @@ const AlexaSkillsJapan = () => {
                  </a>
               </div>
            </div>
-           <div className="alexa col s12 m3 l3">
+           <div className="alexa col s12 m6 l3">
               <div className="flag-image">
                  <a href="/alexa-skills-united-kingdom" rel="noopener noreferrer">
                  <img src={UnitedKingdom}
@@ -339,7 +339,7 @@ const AlexaSkillsJapan = () => {
                  </a>
               </div>
            </div>
-           <div className="alexa col s12 m3 l3">
+           <div className="alexa col s12 m6 l3">
               <div className="flag-image">
                 <a href="/alexa-skills-australia" rel="noopener noreferrer">
                   <img src={Australia}
@@ -353,7 +353,7 @@ const AlexaSkillsJapan = () => {
            </div>
         </div>
         <div className="row two">
-           <div className="alexa col s12 m3 l3">
+           <div className="alexa col s12 m6 l3">
               <div className="flag-image">
                  <a href="/alexa-skills-mexico" rel="noopener noreferrer">
                  <img src={Mexico}
@@ -365,7 +365,7 @@ const AlexaSkillsJapan = () => {
                  </a>
               </div>
            </div>
-           <div className="alexa col s12 m3 l3">
+           <div className="alexa col s12 m6 l3">
               <div className="flag-image">
                  <a href="/alexa-skills-spain" rel="noopener noreferrer">
                  <img src={Spain}
@@ -377,7 +377,7 @@ const AlexaSkillsJapan = () => {
                  </a>
               </div>
            </div>
-           <div className="alexa col s12 m3 l3">
+           <div className="alexa col s12 m6 l3">
               <div className="flag-image">
                  <a href="/alexa-skills-brazil" rel="noopener noreferrer">
                  <img src={Brazil}
@@ -389,7 +389,7 @@ const AlexaSkillsJapan = () => {
                  </a>
               </div>
            </div>
-           <div className="alexa col s12 m3 l3">
+           <div className="alexa col s12 m6 l3">
               <div className="flag-image">
                  <a href="/alexa-skills-france" rel="noopener noreferrer">
                  <img src={France}
@@ -403,7 +403,7 @@ const AlexaSkillsJapan = () => {
            </div>
         </div>
         <div className="row three">
-           <div className="alexa col s12 m3 l3">
+           <div className="alexa col s12 m6 l3">
               <div className="flag-image">
                  <a href="/alexa-skills-germany" rel="noopener noreferrer">
                  <img src={Germany}
@@ -415,7 +415,7 @@ const AlexaSkillsJapan = () => {
                  </a>
               </div>
            </div>
-           <div className="alexa col s12 m3 l3">
+           <div className="alexa col s12 m6 l3">
               <div className="flag-image">
                  <a href="/alexa-skills-italy" rel="noopener noreferrer">
                  <img src={Italy}
@@ -427,7 +427,7 @@ const AlexaSkillsJapan = () => {
                  </a>
               </div>
            </div>
-           <div className="alexa col s12 m3 l3">
+           <div className="alexa col s12 m6 l3">
               <div className="flag-image">
                  <a href="/alexa-skills-india" rel="noopener noreferrer">
                  <img src={India}
